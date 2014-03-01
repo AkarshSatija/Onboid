@@ -1,0 +1,22 @@
+/*for header*/
+
+.container
+{
+
+}
+
+.navbar-default
+{
+	background-color: #FFFFFF;
+	border:none;
+}
+ul.navbar-nav
+{
+	background-color: #FFFFFF;
+	list-style: circle outside none !important;
+}
+ul.navbar-nav >li
+{
+	background-color: #FFFFFF;
+	list-style: circle outside none !important;
+}
