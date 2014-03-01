@@ -1,0 +1,15 @@
+Some text layers contain fonts that are missing. These layers will need to have the missing fonts replaced before they can be used for vector based output. 
+
+These are the list of missing font(s): 
+MuseoSans 900
+MuseoSans 300
+HelveticaNeueLT ExtBlackCondObl
+MuseoSans 300Italic
+OpenSans Light
+MuseoSans 700
+MuseoSans 500
+OpenSans
+OpenSans Semibold
+MuseoSans 100
+Please write me a song
+OpenSans Extrabold
