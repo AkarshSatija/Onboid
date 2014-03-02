@@ -1,7 +1,13 @@
-/*body*/
+@font-face {
+font-family: MuseoSans;
+src: url("../fonts/MuseoSans_500.otf") format("opentype");
+}
+
+/*/*body
 body {
-font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-family: "MuseoSans",Helvetica,Arial,sans-serif;
 font-size: 14px;
+}*/
 
 
 /*for header*/
@@ -12,7 +18,7 @@ width:960px;
 }
 
 
-/*for Nav*/
+/* for Nav */
 
 .navbar-default
 {
@@ -29,15 +35,24 @@ ul.navbar-nav >li
 	background-color: #FFFFFF;
 	display: list-item;
 	list-style:disc;
+	font-size: 12px;
+	font-family: "MuseoSans";
+	color: #6a6a6a;
+
 }
+ul.navbar-nav >li:first-child
+{
+	list-style:none;
+}
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus
 {
 	background-color: #FFFFFF;
-	border-top: #e27171 solid 6px;
+	border-top: #e27171 solid 5px;
 }
 .navbar-nav>li>a
 {
-	border-top: #fff solid 4px;
+	border-top: #fff solid 5px;
 	position: relative;
 	left: -10px;
 }
@@ -55,6 +70,16 @@ ul.navbar-nav >li
 {
 	background-image: none;
 	
+}
+.carousel-control .icon-next:before
+{
+	content: url("../img/right_red_arrow.png");
+
+}
+.carousel-control .icon-prev:before
+{
+	content: url("../img/left_red_arrow.png");
+
 }
 .carousel-indicators .active 
 {
