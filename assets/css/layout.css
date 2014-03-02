@@ -87,6 +87,7 @@ ul.navbar-nav >li
 	 position: absolute;
 	 border-width: 7px 7px 0;
 	 border-color: #fff rgba(0, 0, 0, 0) -moz-use-text-color;
+	 border-color: #fff rgba(0, 0, 0, 0);
 	 margin-left: 40%;
 }
 
@@ -99,31 +100,16 @@ ul.navbar-nav >li
 	 margin-left: 40%;
 }
 
-.tab-content
+.tabs-grid .tab-content
 {
 	margin-top: 10px;
+	background-color: #a6cc81;
 }
 
-
-
-/*
-
-
-
-.nav-pills>li::after
+.tabs-grid .tab-content .box2
 {
-  position: absolute;
-  top: -6px;
-  left: 10px;
-  display: inline-block;
-  border-right: 6px solid transparent;
-  border-bottom: 6px solid white;
-  border-left: 6px solid transparent;
-  content: '';
+	background-color: #b5df8d;
 }
-*/
-
-
 
 
 
