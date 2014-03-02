@@ -1,13 +1,8 @@
+
 @font-face {
 font-family: MuseoSans;
 src: url("../fonts/MuseoSans_500.otf") format("opentype");
 }
-
-/*/*body
-body {
-font-family: "MuseoSans",Helvetica,Arial,sans-serif;
-font-size: 14px;
-}*/
 
 
 /*for header*/
@@ -146,7 +141,7 @@ ul.navbar-nav >li:first-child
 }
 .tabs-grid .tab-content .box
 {
-	min-height: 150px;
+	min-height: 191px;
 }
 
 
