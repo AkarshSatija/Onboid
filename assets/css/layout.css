@@ -1,9 +1,18 @@
+/*body*/
+body {
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+
+
 /*for header*/
 
 .container
 {
-
+width:960px;
 }
+
+
+/*for Nav*/
 
 .navbar-default
 {
@@ -24,7 +33,7 @@ ul.navbar-nav >li
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus
 {
 	background-color: #FFFFFF;
-	border-top: #aaa solid 4px;
+	border-top: #e27171 solid 6px;
 }
 .navbar-nav>li>a
 {
