@@ -131,13 +131,53 @@ ul.navbar-nav >li
 	display: block;
 }
 
+
+
 /*  Signing-signup grid  */
 .signing-grid
 {
 	background-color: #F6F6F6;
+	padding-bottom: 150px;
+}
+
+.signing-grid h3
+{
+	text-align: center;
 }
 
 
+.signing-grid .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus
+{
+	background-color: #a6cc81;
+	color: #FFFFFF;
+}
+.signing-grid .nav-pills > li > a
+{
+	border-radius: 0;
+	background-color: #dadada;
+	color: #434343;
+}
 
+.signing-grid .caret
+{
+	 position: absolute;
+	 border-width: 7px 7px 0;
+	 border-color: #f6f6f6 rgba(0, 0, 0, 0) -moz-use-text-color;
+	 border-color: #f6f6f6 rgba(0, 0, 0, 0);
+	 margin-left: 40%;
+}
+
+.signing-grid .active .caret
+{
+	 position: absolute;
+	 border-width: 7px 7px 0;
+	 border-bottom-color:#a6cc81;
+	 border-top-color:#a6cc81;
+	 margin-left: 40%;
+}
+.signing-grid .tab-content
+{
+	margin-top: 25px;
+}
 
 
