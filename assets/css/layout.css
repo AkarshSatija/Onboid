@@ -18,5 +18,123 @@ ul.navbar-nav
 ul.navbar-nav >li
 {
 	background-color: #FFFFFF;
-	list-style: circle outside none !important;
+	display: list-item;
+	list-style:disc;
 }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus
+{
+	background-color: #FFFFFF;
+	border-top: #aaa solid 4px;
+}
+.navbar-nav>li>a
+{
+	border-top: #fff solid 4px;
+	position: relative;
+	left: -10px;
+}
+
+
+
+
+/* For carousel*/
+.carousel-control.right
+{
+	background-image: none;
+
+}
+.carousel-control.left
+{
+	background-image: none;
+	
+}
+.carousel-indicators .active 
+{
+	background-color: #939393;
+	border: none;
+	height: 10px;
+	width: 10px;
+	margin: 1px;
+
+}
+.carousel-indicators li 
+{
+	border: none;
+	height: 10px;
+	width: 10px;
+	background-color: #DDDDDD;
+
+}
+
+
+
+
+/* *** For tabs-grid  ***  */
+
+.tabs-grid .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus
+{
+	background-color: #a6cc81;
+	color: #FFFFFF;
+}
+.tabs-grid .nav-pills > li > a
+{
+	border-radius: 0;
+	background-color: #dadada;
+	color: #434343;
+}
+
+.tabs-grid .caret
+{
+	 position: absolute;
+	 border-width: 7px 7px 0;
+	 border-color: #fff rgba(0, 0, 0, 0) -moz-use-text-color;
+	 margin-left: 40%;
+}
+
+.tabs-grid .active .caret
+{
+	 position: absolute;
+	 border-width: 7px 7px 0;
+	 border-bottom-color:#a6cc81;
+	 border-top-color:#a6cc81;
+	 margin-left: 40%;
+}
+
+.tab-content
+{
+	margin-top: 10px;
+}
+
+
+
+/*
+
+
+
+.nav-pills>li::after
+{
+  position: absolute;
+  top: -6px;
+  left: 10px;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid white;
+  border-left: 6px solid transparent;
+  content: '';
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
