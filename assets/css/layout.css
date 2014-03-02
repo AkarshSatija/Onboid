@@ -110,15 +110,32 @@ ul.navbar-nav >li
 {
 	background-color: #b5df8d;
 }
+.tabs-grid .tab-content .box
+{
+	min-height: 150px;
+}
 
 
+/* For main grid */
+
+.main-grid
+{
+	padding-top: 25px;
+	border-bottom: #eaeaea 20px solid;
+}
 
 
+.main-grid li
+{
+	float: left;
+	display: block;
+}
 
-
-
-
-
+/*  Signing-signup grid  */
+.signing-grid
+{
+	background-color: #F6F6F6;
+}
 
 
 
