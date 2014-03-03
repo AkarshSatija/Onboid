@@ -8,6 +8,33 @@ font-family: MuseoSans;
 font-weight: 900;
 src: url("../fonts/MuseoSans_900.otf") format("opentype");
 }
+@font-face {
+font-family: MuseoSans;
+font-weight: 300;
+src: url("../fonts/MuseoSans_300.otf") format("opentype");
+}
+
+/* --- Global Classes --- */
+
+.icon-fb
+{
+	background-image: url(../img/fb_white_btn.png);
+}
+.form-control
+{
+	border-radius: 0;
+	margin: 2px;
+}
+
+.form-control:focus
+{
+	border-radius: 0;
+	border-color: #ccc;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	
+}
 
 
 
@@ -21,17 +48,17 @@ width:960px;
 
 /* for Nav */
 
-.navbar-default
+header .navbar-default
 {
 	background-color: #FFFFFF;
 	border:none;
 }
-ul.navbar-nav
+header ul.navbar-nav
 {
 	background-color: #FFFFFF;
 	list-style: circle outside none !important;
 }
-ul.navbar-nav >li
+header ul.navbar-nav >li
 {
 	text-indent: -15px;
 	padding-right: 10px;
@@ -43,17 +70,17 @@ ul.navbar-nav >li
 	color: #6a6a6a;
 
 }
-ul.navbar-nav >li:first-child
+header ul.navbar-nav >li:first-child
 {
 	list-style:none;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus
+header .navbar-default .navbar-nav>.active>a,header .navbar-default .navbar-nav>.active>a:hover,header .navbar-default .navbar-nav>.active>a:focus
 {
 	background-color: #FFFFFF;
 	border-top: #e27171 solid 5px;
 }
-.navbar-nav>li>a
+header .navbar-nav>li>a
 {
 	border-top: #fff solid 5px;
 
@@ -171,7 +198,13 @@ ul.navbar-nav >li:first-child
 }
 .tabs-grid .tab-content .box3
 {
-	background: url(../img/box3.png) no-repeat 0 60px rgba(0, 0, 0, 0);
+	background: url("../img/box3.png") no-repeat 200px 41px rgba(0, 0, 0, 0);
+	text-align:right;
+}
+
+.tabs-grid .tab-content .box3 .link
+{
+	float: right;
 }
 
 .tabs-grid .tab-content .box4
@@ -182,7 +215,7 @@ ul.navbar-nav >li:first-child
 
 .tabs-grid .tab-content .box5
 {
-	background: url(../img/box5.png) no-repeat 0 60px rgba(0, 0, 0, 0);
+	background: url(../img/box5.png) no-repeat 164px 0px rgba(0, 0, 0, 0);
 }
 
 
@@ -240,6 +273,37 @@ ul.navbar-nav >li:first-child
 	display: block;
 }
 
+.main-grid .sidebar .panel-title .caret
+{
+	border-width: 0 6px 6px;
+}
+.main-grid .sidebar .panel .collapsed>.caret
+{
+	border-width: 6px 6px 0;
+	/*background-color: gray;*/
+	border-top-color:gray;
+}
+
+.main-grid .sidebar .panel-title .title
+{
+	font-size: 13px;
+}
+
+.main-grid .head .title
+{
+	font-family: "MuseoSans";
+	font-size: 18px;
+	font-weight: 700;
+}
+.main-grid .panel-title
+{
+	margin-left: 45px;
+}
+.main-grid .panel-heading
+{
+	min-height: 60px;
+}
+
 
 
 /*  Signing-signup grid  */
@@ -288,5 +352,90 @@ ul.navbar-nav >li:first-child
 {
 	margin-top: 25px;
 }
+
+.signing-grid .btn-fb
+{
+	background-color: #5c76b3;
+	color: #fff;
+	border-radius: 0;
+	padding:5px 20px 5px 20px;
+	width: 100%;
+	font-family: "MuseoSans";
+	font-weight: 300;
+	font-size: 15;
+}
+
+.signing-grid .btn-red
+{
+	background-color: #e27171;
+	color: #fff;
+	border-radius: 0;
+	padding:5px 20px 5px 20px;
+	width: 100%;
+	font-family: "MuseoSans";
+	font-weight: 300;
+	font-size: 15;
+	margin-top: 25px;
+}
+
+.signing-grid .big-or
+{
+	margin: 15px 0 10px 0;
+	text-align: center;
+	font-size: 18px;
+	font-family: "MuseoSans";
+	color: #939393;
+
+}
+
+.signing-grid #login .username
+{
+background-image: url(../img/right_red_arrow.png);
+background-repeat: no-repeat;
+background-position: 0px 0px;
+padding-left: 25px;
+
+}
+.signing-grid #login .password
+{
+background-image: url(../img/right_red_arrow.png);
+background-repeat: no-repeat;
+background-position: 0px 0px;
+padding-left: 25px;
+
+}
+.signing-grid #login a.forgot
+{
+	font-size: 13px;
+	margin: 3px 0 0 3px;
+}
+
+/* FOR FOOTER */
+footer.footer
+{
+	border-top:50px solid black;
+	background-color: #1b1b1b;
+}
+
+footer.footer ul >li
+{
+	width:20%;
+	font-size: 10px;
+	font-family:MuseoSans;
+	font-weight: 300;
+}
+.footer-menu
+{
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 75%;
+}
+.footer-menu a
+{
+	text-decoration: none;
+	color: #6a6a6a;
+}
+
 
 
