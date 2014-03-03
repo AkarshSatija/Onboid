@@ -3,6 +3,12 @@
 font-family: MuseoSans;
 src: url("../fonts/MuseoSans_500.otf") format("opentype");
 }
+@font-face {
+font-family: MuseoSans;
+font-weight: 900;
+src: url("../fonts/MuseoSans_900.otf") format("opentype");
+}
+
 
 
 /*for header*/
@@ -145,20 +151,72 @@ ul.navbar-nav >li:first-child
 	background-color: #a6cc81;
 }
 
-.tabs-grid .tab-content .box2
-{
-	background-color: #b5df8d;
-}
-
-.tabs-grid .tab-content .box4
-{
-	border-right: 8px solid #b5df8d;
-}
-
 .tabs-grid .tab-content .box
 {
 	min-height: 191px;
 }
+
+.tabs-grid .tab-content .box1
+{
+	background: url(../img/box1.png) no-repeat 0 60px rgba(0, 0, 0, 0);
+}
+
+.tabs-grid .tab-content .box2
+{
+	background-color: #b5df8d;
+	background-image: url(../img/box2.png);
+	background-repeat: no-repeat;
+	background-position: 15px 40px;
+
+}
+.tabs-grid .tab-content .box3
+{
+	background: url(../img/box3.png) no-repeat 0 60px rgba(0, 0, 0, 0);
+}
+
+.tabs-grid .tab-content .box4
+{
+	background: url(../img/box4.png) no-repeat 0 60px rgba(0, 0, 0, 0);
+	border-right: 8px solid #b5df8d;
+}
+
+.tabs-grid .tab-content .box5
+{
+	background: url(../img/box5.png) no-repeat 0 60px rgba(0, 0, 0, 0);
+}
+
+
+
+
+.tabs-grid .box .box-data
+{
+	width: 60%;
+	padding-top: 25px;
+}
+.tabs-grid  .box .box-data span
+{
+	float: left;
+	font-size: 13px;
+}
+
+.tabs-grid .box .box-data h5
+{
+	font-family: museosans;
+    font-weight: 900;
+}
+
+.tabs-grid .box .box-data .link
+{
+	padding-top: 15px;
+	
+}
+
+.tabs-grid .box .box-data .link a
+{
+	color: #c25b5b;
+	border-bottom:1px solid #83ab5b;
+}
+
 .tabs-grid hr
 {
 	margin: 0;
