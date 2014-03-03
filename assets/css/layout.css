@@ -27,6 +27,8 @@ ul.navbar-nav
 }
 ul.navbar-nav >li
 {
+	text-indent: -15px;
+	padding-right: 10px;
 	background-color: #FFFFFF;
 	display: list-item;
 	list-style:disc;
@@ -48,8 +50,7 @@ ul.navbar-nav >li:first-child
 .navbar-nav>li>a
 {
 	border-top: #fff solid 5px;
-	position: relative;
-	left: -10px;
+
 }
 
 
@@ -92,6 +93,15 @@ ul.navbar-nav >li:first-child
 	width: 10px;
 	background-color: #DDDDDD;
 
+}
+.carousel-indicators 
+{
+    bottom: -10px;
+}
+#home-carousel
+{
+	margin-top: 15px;
+	margin-bottom: 25px;
 }
 
 
@@ -139,9 +149,21 @@ ul.navbar-nav >li:first-child
 {
 	background-color: #b5df8d;
 }
+
+.tabs-grid .tab-content .box4
+{
+	border-right: 8px solid #b5df8d;
+}
+
 .tabs-grid .tab-content .box
 {
 	min-height: 191px;
+}
+.tabs-grid hr
+{
+	margin: 0;
+	border-width: 8px;
+	border-color: #b5df8d;
 }
 
 
