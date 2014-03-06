@@ -56,7 +56,8 @@ src: url("../fonts/MuseoSans_100.otf") format("opentype");
 .container
 {
 width:960px;
-border:1px solid gray;
+/*border:1px solid gray;*/
+font-family: MuseoSans;
 }
 
 
@@ -307,7 +308,7 @@ header .navbar-nav>li>a
 }
 
 
-.main-grid li
+.main-grid .head li
 {
 	float: left;
 	display: block;
@@ -336,6 +337,10 @@ header .navbar-nav>li>a
 .main-grid .sidebar .panel-title .title
 {
 	font-size: 13px;
+	font-family: "MuseoSans";
+	font-size: 13px;
+	font-weight: 900;
+
 }
 
 .main-grid .head .title
@@ -344,6 +349,13 @@ header .navbar-nav>li>a
 	font-size: 18px;
 	font-weight: 700;
 }
+
+.main-grid .panel
+{
+	box-shadow: none;
+	-webkit-box-shadow: none; 
+}
+
 .main-grid .panel-title
 {
 	margin-left: 45px;
@@ -351,7 +363,32 @@ header .navbar-nav>li>a
 .main-grid .panel-heading
 {
 	min-height: 60px;
+	border-radius: 0;
+	border:none;
 }
+
+
+.main-grid .panel-group li
+{
+	display: block;
+}
+
+.panel-group .panel-heading+.panel-collapse .panel-body
+{
+	border-radius: 0;
+	border:none;
+	border:0;
+}
+
+.main-grid .panel-body .list-item li
+{
+	float: none;
+}
+.main-grid .panel-body .list-item li.active
+{
+	background-color: #eee;
+}
+
 
 .main-grid .listing h4
 {
