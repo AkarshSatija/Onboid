@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ONBOID</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/layout.css" rel="stylesheet">
+   
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   
+   <!-- header -->
+   <header id="header">
+   	<nav class="navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="container">
+	      <div class="navbar-header">
+	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".bs-navbar-collapse">
+	          <span class="sr-only">Toggle navigation</span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	        </button>
+	        <a class="navbar-brand" href="index.html">
+	          <img class="logo" src="assets/img/logo.png" alt="">
+	        </a>
+	      </div>
+
+	      <!-- Collect the nav links, forms, and other content for toggling -->
+	      <div class="collapse navbar-collapse bs-navbar-collapse pull-right">
+	        <ul class="nav navbar-nav">
+	        	<li class ="active">
+	              <a href="">HOME</a>
+	            </li>
+	            <li>
+	              <a href="#">HOW IT WORKS</a>
+	            </li>
+	            <li>
+	              <a href="#">HOW IT WORKS</a>
+	            </li>
+	            <li>
+	              <a href="#">HOW IT WORKS</a>
+	            </li>
+	            <li>
+	              <a href="#">POST A QUESTION</a>
+	            </li>
+	            <li>
+	              <a href="#">REGISTER</a>
+	            </li>
+	            <li>
+	              <a href="#">LOGIN</a>
+	            </li>
+	          </ul>
+	      </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+   </header><!-- /header -->
+
+
+   <!--   [ Carousel ]   -->
+  <div class="container">
+    <div class="row">
+        <div id="tab-container" class="span6 offset1">
+        <ul class="nav nav-tabs" id="myTab">
+              <li class="active"><a href="#options" data-toggle="tab">Options</a></li>
+              <li class=""><a href="#information" data-toggle="tab">Information</a></li>
+              <li class=""><a href="#payment" data-toggle="tab">Payment</a></li>
+            </ul>
+            
+            <div class="tab-content">
+                <div class="tab-pane active" id="options">
+                    <div class="well">
+                    
+                        <fieldset>
+                            <legend>Registration Options</legend>
+
+                            <label for="Reg_type1" class="radio">
+                            <input type="radio" name="Reg_type" id="Reg_type1" value="1"/>
+                        Registering myself with credit card or bank account
+                        </label>
+                        <br>
+                        <label for="Reg_type2" class="radio">
+                            <input type="radio" name="Reg_type" id="Reg_type2" value="2"/>
+                        Registering multiple people using credit card or bank account
+                        </label>
+                        <br>
+                        <label for="Reg_type3" class="radio">
+                            <input type="radio" name="Reg_type" id="Reg_type3" value="3"/>
+                        Registering using a purchase order
+                        </label>
+                        </fieldset>
+                                <button class="btn-demo btn" data-activate="#information">Continue</button>
+                        <span class="help-inline" style="display:none;">Please choose an option</span>
+                    
+                    </div><!--/.well -->
+                </div>
+                <div class="tab-pane" id="information">
+                    <div class="well">
+                    <p>Some content to give this pane a little bit of bulk</p>
+                         <button class="btn-demo btn" data-activate="#payment" type="submit">Continue</button>
+                    
+                    </div><!--/.well -->
+                </div>
+                <div class="tab-pane" id="payment">
+                    <div class="well">
+                    <p>Some content for the 3rd pane.</p>     
+                    </div><!-- .well -->
+                </div>
+            </div>
+        </div><!-- /.row -->
+    </div><!-- /#tab-container -->
+</div><!-- /.container -->
+
+<!-- tabs-grid -->
+<div class="tabs-grid">
+	<div class="container">
+		<ul class="nav nav-pills">
+		<li class="active">
+			<a href="#how" data-toggle="tab">HOW IT WORKS</a><span class="caret"></span>
+		</li>
+		<li class="">
+			<a href="#expert" data-toggle="tab">EXPERT REGISTRATION</a><span class="caret"></span>
+		</li>
+		</ul>
+	</div>
+	<div class="tab-content">
+	  <div class="tab-pane slide active" id="how">
+	  	<div class="container">
+		  	<div class="row row1">
+
+		  		<div class="col-md-4 box box1">
+			  		
+		            	<div class="box-data pull-right">
+		            		<h5>1.RAISE A QUESTION</h5>
+		            		<span class="text">If you are stuck somewhere, facing some real problem for yourself and for your team</span>
+		            		<span class="link">
+			            		<a href="#expert2" data-toggle="tab">POST YOUR PROBLEM</a>
+			            		<img src="assets/img/icon-arrow-forward.png">
+		            		</span>
+		            	</div>
+		           
+	            </div>
+	            
+	            <div class="col-md-4 box box2">
+			  			
+			  			<div class="box-data pull-right">
+		            		<h5>2.RAISE A QUESTION</h5>
+		            		<span class="text">If you are stuck somewhere, facing some real problem for yourself and for your team</span>
+		            		<span class="link"><a href="#">POST YOUR PROBLEM</a>
+		            		<img src="assets/img/icon-arrow-forward.png"></span>
+
+		            	</div>
+	
+	            </div>
+	            
+	            <div class="col-md-4 box box3">
+	            	<div class="box-data pull-left">
+	            		<h5>3.RAISE A QUESTION</h5>
+	            		<span class="text">If you are stuck somewhere, facing some real problem for yourself and for your team</span>
+	            		<span class="link"><a href="#">POST YOUR PROBLEM</a><img src="assets/img/icon-arrow-forward.png"></span>
+		            </div>
+	            </div>
+
+		  	</div>
+		</div>
+		<hr>
+		<div class="container">
+		  	<div class="row row2">
+
+		  		<div class="col-md-6 box box4" >
+		  			<div class="box-data pull-right">
+	            		<h5>4.RAISE A QUESTION</h5>
+	            		<span class="text">If you are stuck somewhere, facing some real problem for yourself and for your team</span>
+	            		<span class="link"><a href="#">POST YOUR PROBLEM</a><img src="assets/img/icon-arrow-forward.png"></span>
+	            	</div>
+	            </div>
+	            
+		  		<div class="col-md-6 box box5">
+		  			<div class="box-data pull-left">
+	            		<h5>5.RAISE A QUESTION</h5>
+	            		<span class="text">If you are stuck somewhere, facing some real problem for yourself and for your team</span>
+	            		<span class="link"><a href="#">POST YOUR PROBLEM</a><img src="assets/img/icon-arrow-forward.png"></span>
+	            	</div>
+	            </div>
+
+		  	</div>
+	  	</div>
+	  </div>
+	  <div class="tab-pane slide" id="expert">
+	  	<!-- trying something insane -->
+	  	<div class="tabs-grid">
+	  		<div class="container">
+	  			<ul class="nav nav-pills">
+	  			<li class="active">
+	  				<a href="#expert1" data-toggle="tab">HOW IT WORKS</a><span class="caret"></span>
+	  			</li>
+	  			<li class="">
+	  				<a href="#expert2" data-toggle="tab">EXPERT REGISTRATION</a><span class="caret"></span>
+	  			</li>
+	  			<li class="">
+	  				<a href="#expert3" data-toggle="tab">EXPERT REGISTRATION</a><span class="caret"></span>
+	  			</li>
+	  			</ul>
+	  		</div>
+	  		<div class="tab-content">
+	  		  <div class="tab-pane fade in active" id="expert1">
+	  		  	tab1
+	  			
+	  		  </div>
+	  		  <div class="tab-pane fade" id="expert2">
+	  		  	tab2
+	  		  </div>
+	  		  <div class="tab-pane fade" id="expert3">
+	  		  	tab3
+	  		  </div>
+	  		</div>
+	  	</div>
+	  	<!-- -->
+	  </div>
+	</div>
+</div>
+<!-- tabs-grid ends -->
+
+
+<!-- main grid start here -->
+<div class="main-grid">
+	<div class="container">
+		<div class="head">
+			<li class="title">FEW PROBLEMS ASKED BY OTHERS IN "COMPUTER PROGRAMMING"</li>
+			<li class="pull-right">
+				<a href="#">VIEW ALL QUESTIONS</a>>>
+			</li>
+		</div>
+		<br><hr>
+
+	</div>
+</div>
+<!-- main grid ends here -->
+
+
+<div class="signing-grid">
+	<div class="container">
+		<h3>LOGIN OR CREATE A NEW ACCOUNT TO GET MAXIMUM OF ONBOID!!</h3>
+		
+			<ul class="nav nav-pills">
+				<li class="active">
+					<a href="#login" data-toggle="tab">LOGIN</a><span class="caret"></span>
+				</li>
+				<li class="">
+					<a href="#signup" data-toggle="tab">CREATE NEW ACCOUNT</a><span class="caret"></span>
+				</li>
+			</ul>
+		
+
+			<div class="tab-content">
+			  <div class="tab-pane fade in active" id="login">
+			  	<div class="row">
+			  		<div class="col-md-4 ">
+			  		<form role="form">
+			  		<button type="submit" class="btn btn-lg btn-fb">
+			  			  <img src="assets/img/fb_white_btn.png"></img>
+			  			  LOGIN WITH FACEBOOK
+			  		</button>
+			  		<p class="big-or">OR</p>
+			  		<input type="text" class="form-control username" placeholder="Username">
+			  		<input type="password" class="form-control password" placeholder="Password">
+			  		<a href="#" class="pull-right forgot">Forgot Your Password?</a>
+			  		<button type="submit" class="btn btn-lg btn-red">LOGIN TO MY ACCOUNT
+			  		</button>
+			  		</form>
+			  		</div>
+			  		<div class="col-md-7 col-md-offset-1"><img class="img-responsive" src="assets/img/dd.png"></div>
+			  	</div>
+			  </div>
+			  <div class="tab-pane fade" id="signup">
+			  	<img class="img-responsive" src="assets/img/tabsgrid1.png">
+			  </div>
+			</div>
+
+
+	</div>
+</div>
+
+<footer class="footer">
+<div class="container">
+	<div class="footer-menu">
+		<ul class="nav navbar-nav" style="width:100%">
+		<li><a href="#">ABOUT US</a></li>
+		<li><a href="#">CONTACT US</a></li>
+		<li><a href="#">FAQ'S</a></li>
+		<li><a href="#">TERMS &amp; CONDITIONS</a></li>
+		<li><a href="#">LOGIN</a></li>
+	</ul>
+	</div>
+</div>
+<br>
+<br>
+</footer>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.js"></script>
+
+
+    
+  
+  <style>
+    #tab-container{
+    overflow:hidden;
+    }
+
+  </style>
+  
+
+
+<script type="text/javascript">//<![CDATA[ 
+$(window).load(function(){
+var selector;
+var selectorID;
+
+activateTab('#myTab a:first');
+
+function activateTab(selectorID) 
+{
+    $(selectorID).tab('show')
+        .closest('.disabled').removeClass('disabled');    
+}
+
+function deactivateTab(selector) 
+{
+    $(selector).off('click.twbstab')
+        .closest('li').addClass('disabled');
+}
+
+$('.btn-demo').on('click',function() {
+    selector = '#myTab a[href="'+$(this).data('activate')+'"]';
+    selectorID = $(selector).attr('href');
+});
+
+
+
+
+
+// re-position all tab-panes, except the active pane, so that they are prepared for the slide effect
+$(".tab-pane").css("position", "relative");
+$(".tab-pane").not(".active").animate({
+    left: "1000px"
+});
+
+// perform slide effect
+$('a[data-toggle="tab"]').on('show', function (e) {
+    lastPane = $(e.relatedTarget).attr('href');
+    $(lastPane).animate({left: "1000px"}, 300)
+    currPane = $(e.target).attr('href');
+    $(currPane).animate({left: "0px"}, 300);
+});    
+    
+
+
+});//]]>  
+
+</script>
+
+
+
+  </body>
+</html>
+
+
