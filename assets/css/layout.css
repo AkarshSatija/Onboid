@@ -565,6 +565,41 @@ header .navbar-nav>li>a
 
 	}
 
+	/*FOR TAB-GRID in 4. SOLUTION*/
+
+	#tab_inner4.nav-pills >li
+	{
+		border-left: none;
+		margin-left: 0;
+		padding: 0;
+	}
+
+	#tab_inner4.nav-pills > li > a
+	{
+		background-color: transparent;
+	    color: #111;
+	    font-family: MuseoSans;
+	    font-size: 14px;
+	    font-weight: 300;
+	    padding-top: 120px;
+	    width: 140px;
+		height: 140px;
+
+		/*----*/
+
+		background-image: url("../img/tab4_design.png");
+		background-size: 85% auto;
+		background-repeat: no-repeat;
+		/*border:1px solid;*/
+	}
+	#tab_inner4 .tab41 a
+	{
+		/*background:url("../img/tab4_design.png") no-repeat 0px 0px rgba(0,0,0,0);
+
+*/		
+		
+
+	}
 
 
 
