@@ -474,9 +474,43 @@
 		  		  		</li>
 		  		  	</div>
 		  		  	<div style="clear:both;"></div>
-		  		  	<div>
-		  		  		asdasdasdasd
-		  		  	</div>
+		  		  	<div id="rating-carousel" class="home-carousel carousel slide">
+		  		  	   	  
+		  		  	   	  <div class="carousel-inner">
+		  		  	   	    <div class="item active">
+		  		  	   	      <blockquote>
+		  		  	   	      Quote Qu0te Quote Qu0te Quote Qu0te Quote Qu0te Quote Qu0te Quote<br> Qu0te Quote Qu0te Quote Qu0te Quote Qu0te Quote
+		  		  	   	      </blockquote>
+		  		  	   	      <span class="caret gray-caret"></span><hr class="seprator">
+		  		  	   	      <p>
+		  		  	   	      Ankit Khanna, Vice President Product<br>snapdeal.com
+		  		  	   	      </p>
+		  		  	   	      <button class="btn btn-lg btn-red" type="submit">LOGIN TO MY ACCOUNT</button>
+
+		  		  	   	    </div>
+		  		  	   	    <div class="item">
+		  		  	   	      <blockquote>
+		  		  	   	      Quote Qu0te Quote Qu0te Quote Qu0te Quote Qu0te Quote Qu0te Quote<br> Qu0te Quote Qu0te Quote Qu0te Quote Qu0te Quote
+		  		  	   	      </blockquote>
+		  		  	   	      <span class="caret gray-caret"></span><hr class="seprator">
+
+		  		  	   	    </div>
+		  		  	   	    <div class="item">
+		  		  	   	      <blockquote>
+		  		  	   	      Quote Qu0te Quote Qu0te Quote Qu0te Quote Qu0te Quote Qu0te Quote<br> Qu0te Quote Qu0te Quote Qu0te Quote Qu0te Quote
+		  		  	   	      </blockquote>
+		  		  	   	      <span class="caret gray-caret"></span><hr class="seprator">
+		  		  	   	    </div>
+		  		  	   	    
+		  		  	   	  </div>
+		  		  	   	  <a class="left carousel-control" href="#rating-carousel" data-slide="prev">
+		  		  	   	    <span class="icon-prev"></span>
+		  		  	   	  </a>
+		  		  	   	  <a class="right carousel-control" href="#rating-carousel" data-slide="next">
+		  		  	   	    <span class="icon-next"></span>
+		  		  	   	  </a>
+		  		  	   	</div>
+
 	  		  	</div>
 	  		  </div>
 	  		</div>
@@ -699,7 +733,7 @@
     <script type="text/javascript">
     	$(function () {
     	$('#tab_outer a:last').tab('show');
-    	$('#tab_inner li:eq(4) a').tab('show');
+    	$('#tab_inner li:eq(5) a').tab('show');
   		});
   		function show_back_tab()
   		{
@@ -711,6 +745,14 @@
     <script type="text/javascript">
 	    $('.selectpicker').selectpicker('refresh');
 	    $('.selectpicker').selectpicker('render');
+    </script>
+    <script type="text/javascript">
+    	$('#home-carousel').carousel({
+    	    interval: 2000
+    	});
+    	$('#rating-carousel').carousel({
+    	    interval: 200000
+    	});
     </script>
 
 

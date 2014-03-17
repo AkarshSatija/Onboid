@@ -146,6 +146,18 @@ src: url("../fonts/MuseoSans_100.otf") format("opentype");
     border-color: #404040;
 }
 
+.btn-red
+{
+	background-color: #e27171;
+	color: #fff;
+	border-radius: 0;
+	padding:5px 20px 5px 20px;
+	font-family: "MuseoSans";
+	font-weight: 300;
+	font-size: 15;
+	margin-bottom: 15px;
+	
+}
 
 
 
@@ -610,17 +622,17 @@ header .navbar-nav>li>a
 	#tab_inner4.nav-pills > li.active span.caret
 	{
 		background-image: url("../img/gray_caret.png");
-    background-repeat: no-repeat;
-    height: 13px;
-    margin-top: 0;
-    position: relative;
-    top: 35px;
-    width: 22px;
- border-bottom-color: rgba(0, 0, 0, 0);
-    border-top-color: rgba(0, 0, 0, 0);
-    border-style: none;
-    border-width: 0;
-    display: inline-block;
+	    background-repeat: no-repeat;
+	    height: 13px;
+	    margin-top: 0;
+	    position: relative;
+	    top: 35px;
+	    width: 22px;
+	 	border-bottom-color: rgba(0, 0, 0, 0);
+	    border-top-color: rgba(0, 0, 0, 0);
+	    border-style: none;
+	    border-width: 0;
+	    display: inline-block;
 
 	}
 	#expert4 .seprator
@@ -701,6 +713,59 @@ header .navbar-nav>li>a
 		
 	}
 
+	/* #expert5 */
+	#rating-carousel .item
+	{
+		text-align: center;
+	}
+
+	#expert5 blockquote
+	{
+		text-align: center;
+		border:none;
+		margin: 15px 40px;
+	}
+	#expert5 blockquote:before {
+	    content: "\"";
+	    line-height: 0;
+	    font-size: 24px;
+	}
+
+	#expert5 blockquote:after {
+	    content: "\"";
+	    line-height: 0;
+	    font-size: 24px;
+	}
+
+	#expert5 .gray-caret
+	{
+		background-image: url("../img/gray_caret.png");
+	    background-repeat: no-repeat;
+	    height: 13px;
+	    margin-top: 0;
+	    position: relative;
+	    top: 35px;
+	    width: 22px;
+	 	border-bottom-color: rgba(0, 0, 0, 0);
+	    border-top-color: rgba(0, 0, 0, 0);
+	    border-style: none;
+	    border-width: 0;
+	    display: inline-block;
+	    
+
+	}
+	#expert5 .seprator
+	{
+		border-color: #cdcdcd;
+
+	}
+	#rating-carousel .item p
+	{
+		color: #7b7b7b;
+		font-family: MuseoSans;
+		font-weight: 700;
+		font-size: 15px;
+	}
 
 
 /* For main grid */
@@ -1101,11 +1166,11 @@ footer.footer ul >li
 	color: #6a6a6a;
 }
 
-.slide{
-     display: none;
-    position: relative;
-    transition: left 0.6s ease-in-out 0s;
-}
+
+
+
+
+//----- ayush work start here
 
 .cat_page_search_section{
 	width:100%;
