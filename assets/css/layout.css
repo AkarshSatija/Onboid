@@ -604,8 +604,31 @@ header .navbar-nav>li>a
 
 	#tab_inner4.nav-pills > li span.caret
 	{
-		margin-top: 25px;
+		display: none;
 	}
+
+	#tab_inner4.nav-pills > li.active span.caret
+	{
+		background-image: url("../img/gray_caret.png");
+    background-repeat: no-repeat;
+    height: 13px;
+    margin-top: 0;
+    position: relative;
+    top: 35px;
+    width: 22px;
+ border-bottom-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-style: none;
+    border-width: 0;
+    display: inline-block;
+
+	}
+	#expert4 .seprator
+	{
+		border-color: #cdcdcd;
+
+	}
+	
 
 
 	#tab_inner4 .tab41 a
