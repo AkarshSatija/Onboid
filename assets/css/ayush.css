@@ -85,7 +85,8 @@
 
 }
 
-.cat_page_search_section2 ul li a:hover, .cat_page_search_section2 ul li a:focus {
+.cat_page_search_section2 ul li a:hover, .cat_page_search_section2 ul li a:focus , .cat_page_search_section2 ul li.active a
+{
 color: black;
 border-bottom: 3px solid #e27171;
 }
