@@ -454,6 +454,12 @@ header .navbar-nav>li>a
 	.tabs-grid-inner .nav-pills > li.go-back
 	{
 		border-left: none;
+		
+	}
+	.tabs-grid-inner .nav-pills > li.go-back a
+	{
+		
+		padding-top: 10px;
 	}
 
 	.tabs-grid-inner .active .caret.tab-inner
