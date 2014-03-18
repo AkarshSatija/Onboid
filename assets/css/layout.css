@@ -103,7 +103,7 @@ src: url("../fonts/MuseoSans_100.otf") format("opentype");
 	background-color: #e27171;
 	color: #FFFFFF;
 	border-radius: 0;
-	padding:10px 40px;
+	
 }
 
 .pagination >li
