@@ -35,6 +35,20 @@ font-weight: 100;
 src: url("../fonts/MuseoSans_100.otf") format("opentype");
 }
 
+@font-face {
+font-family: opensansb;
+src: url("../fonts/OpenSansBold.ttf");
+}
+
+@font-face {
+font-family: opensansr;
+src: url("../fonts/OpenSansRegular.ttf");
+}
+
+
+
+
+
 
 
 
@@ -1318,3 +1332,52 @@ border-bottom: 3px solid #e27171;
 
 }
 
+.question_page h4{
+	font-family: museosans;
+	font-weight: 700;
+}
+
+.question_page h6{
+	font-family: museosans;
+	font-weight: 100;
+	color:#a1a1a1;
+	font-size: 1.1em;
+}
+
+.question_page label{
+	font-family: opensansb;
+	font-size: 15px;
+}
+
+.question_page .problem_tag{
+	background-color: #fffcaa;
+	margin: 2px;
+	padding: 6px;
+	border: 1px solid #e2df83;
+	color:#404040;
+}
+
+.question-page-side-box{
+	border:1px solid #b3b3b3;
+	min-height: 300px;
+
+}
+
+.question-page-side-box{
+	padding:18px;
+}
+
+.question-page-side-box h4{
+	color:#e27171;
+}
+
+.question-page-side-box ul {
+	margin-left: -20px;
+}
+
+.question-page-side-box ul li{
+font-family:opensansr;
+color:#6d6d6d;
+font-size: 13px;
+
+}
