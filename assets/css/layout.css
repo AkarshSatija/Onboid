@@ -793,7 +793,7 @@ header .navbar-nav>li>a
 .main-grid
 {
 	padding-top: 25px;
-	border-bottom: #eaeaea 20px solid;
+	
 }
 
 
@@ -1169,8 +1169,8 @@ padding-left: 25px;
 /* FOR FOOTER */
 footer.footer
 {
-	border-top:50px solid black;
-	background-color: #1b1b1b;
+	
+	background-color: #000;
 }
 
 footer.footer ul >li
@@ -1388,3 +1388,15 @@ color:#6d6d6d;
 font-size: 13px;
 
 }
+
+.footer-menu li a{
+	padding:9px;
+	font-family: MuseoSansI;
+	font-weight: 300;
+	font-size: 11px;
+}
+
+.footer-menu li a:hover , .footer-menu li a:focus {
+	background-color: #000;
+}
+
