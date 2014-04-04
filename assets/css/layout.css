@@ -309,6 +309,21 @@ header .navbar-nav>li>a
 	background-color: #dadada;
 	color: #434343;
 }
+
+.tabs-grid .nav-pills > li.expert_black a,
+.tabs-grid .nav-pills > li.expert_black.active a
+{
+	background-color: #303030;
+	color: #fff;
+}
+
+.tabs-grid .nav-pills > li.expert_black a img,
+.tabs-grid .nav-pills > li.expert_black.active a img
+{
+	width:20px;
+}
+
+
 .nav-pills >li
 {
 	padding: 0 5px 0 2px;
@@ -330,6 +345,15 @@ header .navbar-nav>li>a
 	 border-bottom-color:#a6cc81;
 	 border-top-color:#a6cc81;
 	 margin-left: 40%;
+}
+
+
+.expert_black .caret.tab_outer ,
+.expert_black.active .caret.tab_outer
+{
+	border-bottom-color:#111 !important;
+	border-top-color:#abc;
+	display: none;
 }
 
 .tabs-grid .tab-content
