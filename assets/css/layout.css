@@ -1497,3 +1497,99 @@ font-size: 17px;
  .expert_panel .panel-title .collapsed>.title {
 color: #565555;
 }
+
+
+.expert_image{
+	float:left;
+	width:40%;
+}
+
+.expert_image p{
+	margin: 0 0 1px;
+}
+
+.expert_video{
+	float:right;
+	width:30;
+}
+
+.expert_video p{
+	margin: 0 0 0px;
+	font-family: museosans;
+	font-family: 300;
+	color:#2263a0;
+	font-size: 11px;
+}
+
+.work_1{
+
+	float:left;
+	width:30%;
+	font-family: opensansr;
+	color:#5a5959;
+	font-size: 15px;
+	
+}
+
+.work_1 p , .work_2 p {
+	margin: 0 0 10px;
+	font-size: 14px;
+}
+.work_2{
+
+	float:left;
+	width:30%;
+	font-family: opensansr;
+	font-size: 15px;
+
+}
+
+.expert_content_sub{
+	width: 100%;	
+    display: inline-block;
+}
+
+.expert_h4{
+	font-family: museosans;
+	font-weight: 700;
+
+}
+
+.thumb{
+	background: url(../img/like_icon.png) no-repeat 0px 0px rgba(0,0,0,0);
+background-size: 20% auto;
+padding: 3px 5px 3px 25px;
+font-weight: 300;
+font-size: 13px;
+font-family: MuseoSans;
+}
+
+.view{
+	background: url(../img/viewed_icon.png) no-repeat 0px 5px rgba(0,0,0,0);
+	background-size: 20% auto;
+	padding: 3px 5px 3px 25px;
+	font-weight: 300;
+	font-size: 13px;
+	font-family: MuseoSans;
+	margin-left: 5px;
+}
+
+
+.expert-nav li{
+
+}
+.expert-nav li a{
+	background-color: #FFF;
+	color:333333;
+}
+.expert-nav>.active>a{
+	background-color: #FFF !important;
+	border-bottom: 4px solid #e27171;
+
+}
+
+.expert-nav li a:active,  .expert-nav li a:focus , .expert-nav li a:hover{
+	background-color: #FFF;
+	border-bottom: 4px solid #e27171;
+}
+
