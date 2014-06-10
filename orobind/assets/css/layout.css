@@ -1,0 +1,33 @@
+body
+{
+	background-color: #f6f6f6;
+}
+.container
+{
+	width: 80%;
+}
+.subheader
+{
+	margin-top: 10px;
+}
+header nav.navbar-default
+{
+	background-color: #0087bd;
+}
+.logo
+{
+	width: 60%;
+}
+.navbar-default .navbar-nav > li > a
+{
+	color: #fff;
+	font-size: -2px;
+}
+.content
+{
+	margin-top: 20px;
+}
+.right-bar
+{
+	background-color: #e8e8e8;
+}
