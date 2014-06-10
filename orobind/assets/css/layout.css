@@ -8,18 +8,27 @@
 	height: 27px;
 }
 
-.adj-logo
-{
-	height: 70px;
-}
+
 
 .search
 {
 	text-align: center;
-	color: #737373;
+	vertical-align: bottom;
 	font-size: 20px;
 	font-weight: bolder;
-	padding-top: 26px;
+	padding-top: 42px;
+}
+.search a
+{
+	padding: 2px;
+	border-bottom: 2px solid;
+	text-decoration: none;
+	color: #737373;
+}
+
+.text-block
+{
+	padding: 0
 }
 
 .banner
@@ -62,20 +71,36 @@ body
 .container
 {
 	width: 80%;
+	/*max-width: 1024px;*/
 }
 .subheader
 {
-	margin-top: 10px;
+	margin: 15px;
+	padding: 0;
+	border: 2px solid #acacac;
 }
-header nav.navbar-default
+header .navbar-default
 {
 	background-color: #0087bd;
+	padding-top: 5px;
+}
+header .navbar-default .navbar-nav>li>a:hover, header .navbar-default .navbar-nav>li>a:focus , header .navbar-default .navbar-nav>li>a.active, header .navbar-default .navbar-nav>.active>a, header .navbar-default .navbar-nav>.active>a:hover, header .navbar-default .navbar-nav>.active>a:focus
+{
+	color: #fff;
+	
+	border-bottom: 2px solid #fff;
+	background-color: transparent;
+}
+
+header .navbar-nav>li>a
+{
+	padding: 0 5px;
 }
 .logo
 {
-	width: 60%;
+	width: 70%;
 }
-.navbar-default .navbar-nav > li > a
+header .navbar-default .navbar-nav > li > a
 {
 	color: #fff;
 	font-size: -2px;
@@ -84,7 +109,76 @@ header nav.navbar-default
 {
 	margin-top: 20px;
 }
+.description
+{
+	margin: 0;
+	background-color: #FFF;
+}
+.description .data
+{
+	padding-left: 50px;
+}
+.heart-icon
+{
+	width: 50%;
+	padding-top: 5px;	
+}
+.desc-link
+{
+	
+	padding: 2px 3px;
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 10px;
+	background-color: #3a98c8;
+}
+.desc-link:hover, .desc-link:active, .desc-link:focus
+{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+}
+.buy-session
+{
+	width: 100%;
+}
+.know-more
+{
+	width: 50%;
+}
+
 .right-bar
 {
 	background-color: #e8e8e8;
+	margin-bottom: 15px;
 }
+.img-container
+{
+	position:relative;
+    display:inline-block;
+    text-align:center;
+    margin: 10px;
+    font-size: 
+}
+.img-overlay {
+    position: absolute;
+    color: #fff;
+    width: 100%; 
+    bottom: 0;
+    background-color:rgba(55,55,55,0.5);
+}
+
+footer{
+	background-color: #e8e8e8;
+
+}
+.footermenu
+{
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+
