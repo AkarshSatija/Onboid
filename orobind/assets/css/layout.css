@@ -1,3 +1,60 @@
+.nisa
+{
+	border: 1px solid #ccc;
+}
+
+.adj
+{
+	height: 27px;
+}
+
+.adj-logo
+{
+	height: 70px;
+}
+
+.search
+{
+	text-align: center;
+	color: #737373;
+	font-size: 20px;
+	font-weight: bolder;
+	padding-top: 26px;
+}
+
+.banner
+{
+	list-style: none;
+	margin-bottom: 0px;
+	text-align: center;
+	padding-left: 0px;
+}
+
+.banner li
+{
+	display: inline-block;
+	margin: 0px 15px;
+	padding: 8px 8px;
+
+}
+
+.banner li:nth-child(odd)
+{
+	font-size: 26px;
+	color: #404040;
+}
+
+.banner li:nth-child(even)
+{
+	color: #404040;
+	font-weight: bold;
+}
+
+/*
+custom css
+*/
+
+
 body
 {
 	background-color: #f6f6f6;
