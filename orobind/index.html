@@ -31,18 +31,18 @@
 		        </div>
 		        <div class="col-md-8 col-sm-8">
 		        	<div class="pull-right ">
-		      <div class="select-state pull-right ">
+		      <div class="select-state pull-right">
 		        <ul class="nav navbar-nav adj">
 		        	<li class="active">
 		              <a href="#">Bangalore</a>
 		            </li>
-		            <li>
-		              <a href="#">Change</a>
+		            <li class="change">
+		              <a href="#" >Change</a>
 		            </li>
 		          </ul>
 		      </div><!-- /.navbar-collapse -->
 		     
-		      <div class="">
+		      <div class="main-nav">
 		        <ul class="nav navbar-nav adj">
 		        	<li>
 		              <a href="#">BECOME A COACH</a>
@@ -96,13 +96,17 @@
 	   			<div class="item">
 	   				<div class="feature-img">
 	   					<img src="assets/img/feature_img.png" class="img-responsive" />
+	   					<div class="feature-img-overlay">
+	   						<h4>Rs 800 </h4>
+	   						<p>Per Session</p>
+	   					</div>
 	   				</div>
 
 	   				<div class="row description">
 	   					<div class="col-md-8">
 	   						<div class="data">
 	   							<h4>Yoga Coach</h4>
-	   							<h6>IndiraNagar, Bangalore</h6>
+	   							<h5>IndiraNagar, Bangalore</h5>
 	   							<p>
 	   								"Lose weight fast with high intensity cardio &amp; plyometrics"
 	   							</p>
@@ -114,18 +118,20 @@
 		   						<img src="assets/img/heart.png" class="img-responsive">
 		   					</div>
 	   					
-		   					<span class="glyphicon glyphicon-heart"></span>
-		   					<span class="glyphicon glyphicon-heart"></span>
-		   					<span class="glyphicon glyphicon-heart"></span>
-		   					<span class="glyphicon glyphicon-heart"></span>
-		   					<span class="glyphicon glyphicon-heart"></span>
+		   					<div class="heart-rating">
+			   					<span class="glyphicon glyphicon-heart"></span>
+			   					<span class="glyphicon glyphicon-heart"></span>
+			   					<span class="glyphicon glyphicon-heart"></span>
+			   					<span class="glyphicon glyphicon-heart"></span>
+			   					<span class="glyphicon glyphicon-heart"></span>
+		   					</div>
 	   					</div>
 
 	   					<div class="col-md-8" style="padding:0">
-	   						<a href="#" class="desc-link know-more pull-left">know more</a>
+	   						<a href="#" class="desc-link know-more pull-left">Know More</a>
 	   					</div>
 	   					<div class="col-md-4" style="padding-right:0;">
-	   						<a href="#" class="desc-link buy-session pull-right">buy session</a>
+	   						<a href="#" class="desc-link buy-session pull-right">Buy Session</a>
 	   					</div>
 
 
@@ -134,22 +140,35 @@
 	   		</div>
 
 	   		<div class="col-md-4 col-md-offset-1 right-bar">
-	   			<h5>More coaches around You</h5>
+	   			<h4>More coaches around You</h4>
 	   			<article class="img-container">
-	   				<img src="assets/img/feature_img.png" class="img-responsive">
-	   				 <div class="img-overlay"> 
-	   				 <span class="pull-left">Weight Training coach, Indiranagar</span>
-	   				 <p class="pull-right">Rs. 450/ <span>session</span></p>
-	   				 </div>
+	   				<a href="#">
+		   				<img src="assets/img/feature_img.png" class="img-responsive">
+		   				<div class="img-overlay"> 
+			   				<p class="pull-left">Weight Training coach, Indiranagar</p>
+			   				<p class="pull-right">Rs. 450/ <span>session</span></p>
+		   				</div>
+	   				</a>
 	   			</article>
 	   			<article class="img-container">
-	   				<img src="assets/img/feature_img.png" class="img-responsive">
-	   				 <div class="img-overlay"> click here </div>
+	   				<a href="#">
+		   				<img src="assets/img/feature_img.png" class="img-responsive">
+		   				<div class="img-overlay"> 
+			   				<p class="pull-left">Weight Training coach, Indiranagar</p>
+			   				<p class="pull-right">Rs. 450/ <span>session</span></p>
+		   				</div>
+	   				</a>
 	   			</article>
 	   			<article class="img-container">
-	   				<img src="assets/img/feature_img.png" class="img-responsive">
-	   				 <div class="img-overlay"> click here </div>
+	   				<a href="#">
+		   				<img src="assets/img/feature_img.png" class="img-responsive">
+		   				<div class="img-overlay"> 
+			   				<p class="pull-left">Weight Training coach, Indiranagar</p>
+			   				<p class="pull-right">Rs. 450/ <span>session</span></p>
+		   				</div>
+	   				</a>
 	   			</article>
+	   			
 	   		</div>
 	   </div>
 
@@ -164,10 +183,10 @@
    					      <a href="#">#THEGOODFIGHT</a>
    					    </li>
    					    <li>
-   					      <a href="#">Change</a>
+   					      <a href="#">ABOUT US</a>
    					    </li>
    					    <li>
-   					      <a href="#">Change</a>
+   					      <a href="#">CONTACT US</a>
    					    </li>
    				  	</ul>
    			   
@@ -175,11 +194,24 @@
    		</div>
    	</div>
    	<div class="container">
-   	<div class="footermenu">
-   			   		Registered 2014 Orobind fitness technologies pvt. ltds
+   		<div class="footermenu">
+   			   		<p>Registered 2014 Orobind fitness technologies pvt. ltd</p>
    		</div>
    	</div>
    </footer>
+
+<!-- NOT required ON this page
+
+   <script src="assets/js/jquery.js"></script>
+   <script src="assets/js/bootstrap.min.js"></script>
+	
+
+	Required to start Carousel
+	<script>
+		$('#home-carousel').carousel();
+	</script>
+
+-->
 
   </body>
 </html>
