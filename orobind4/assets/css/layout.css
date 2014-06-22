@@ -1,0 +1,61 @@
+@font-face {
+  font-family: Lato-Black;
+  src: url('../fonts/Lato-Bla.ttf');
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url('../fonts/Lato-Bol.ttf');
+}
+@font-face {
+  font-family: Lato-Light;
+  src: url('../fonts/Lato-Lig.ttf');
+}
+@font-face {
+  font-family: Lato-Regular;
+  src: url('../fonts/Lato-Reg.ttf');
+}
+
+body
+{
+	font-family: Lato-Regular;
+}
+
+header
+{
+	background-color: #ffe938;
+	width: 100%;
+	height: 70px;
+}
+.city
+{
+	width: 40%;
+    height: 100%;
+    background: #000;
+    margin: 0 ;
+    position: relative;
+
+    padding:20px 20px;
+    color: #aaa;
+    float:left;
+}
+.city:after {
+    content: '';
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top: 35px solid #000;
+    border-bottom: 35px solid transparent;
+    border-left: 35px solid #000;
+    border-right: 35px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -70px;
+}
+.login-box
+{
+	width: 50%;
+}
+
+
+
