@@ -173,6 +173,8 @@ header
     float:none;
     /*background-image: url('../img/wistle.png');*/
     box-shadow: 10px 10px 5px #888888;
+
+    color: #111;
 }
 .wistle-div:after {
     content: '';
@@ -194,7 +196,26 @@ header
 	position: relative;
 	height: 75px;
 	left: -30px;
+    float: left;
 }
+
+.wistle-div .caption
+{
+
+}
+input[type="text"].form-control
+{
+    width: 20%;
+
+}
+.search-fields
+{
+    background-color: rgba(5,5,5,.5);
+}
+
+
+
+
 .social-links
 {
 	width: 50px;
