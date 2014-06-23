@@ -19,6 +19,27 @@ body
 {
 	font-family: Lato-Regular;
 }
+.container
+{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	background-image: url('../img/background.png');
+	/*background-size: 30%;*/
+	background-repeat: no-repeat;
+}
+.container .row
+{
+	margin: 0;
+}
+.no-margin
+{
+	margin: 0;
+}
+.no-padding
+{
+	padding: 0;
+}
 
 header
 {
@@ -52,10 +73,137 @@ header
     top: 0;
     right: -70px;
 }
+
 .login-box
 {
 	width: 50%;
 }
 
+
+.get-fit
+{
+	width: 40%;
+    height: 80px;
+    background: #fff;
+    margin: 0 ;
+    position: relative;
+    padding:inherit 20px;
+    color: #aaa;
+    float:none;
+}
+.get-fit .get-fit-text
+{
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	color: #111;
+	font-family: Lato-Light;
+}
+.get-fit .get-fit-text span.get
+{
+	font-size: 2em;
+}
+.get-fit .get-fit-text span.fit
+{
+	font-size: 2em;
+	color: #3bd2b5;
+}
+
+
+/*.get-fit:after {
+    content: '';
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top: 35px solid #000;
+    border-bottom: 35px solid transparent;
+    border-left: 35px solid #000;
+    border-right: 35px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -70px;
+}
+
+*/
+.title-div
+{
+	width: 30%;
+    height: 110px;
+    background: #3bd2b5;
+    margin: 0 ;
+    position: relative;
+    padding:20px;
+    color: #aaa;
+    float:none;
+}
+
+.title-div .inner-title
+{
+	width:225px;
+	color: #111;
+	font-family: Lato-Regular;
+	font-size: 1.5em;
+}
+
+.title-div:after {
+    content: '';
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top: 55px solid #3bd2b5;
+    border-bottom: 55px solid transparent;
+    border-left: 55px solid #3bd2b5;
+    border-right: 55px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -110px;
+}
+
+.wistle-div
+{
+	width: 15%;
+    height: 74px;
+    background: #ffe938;
+    margin: 0 30px ;
+    position: relative;
+    padding:0;
+    color: #aaa;
+    float:none;
+    /*background-image: url('../img/wistle.png');*/
+    box-shadow: 10px 10px 5px #888888;
+}
+.wistle-div:after {
+    content: '';
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top: 37.5px solid #ffe938;
+    border-bottom: 37.5px solid transparent;
+    border-left: 37.5px solid #ffe938;
+    border-right: 37.5px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -74px;
+    /*box-shadow: 10px 10px 5px #888888;*/
+}
+.wistle-div img
+{
+	position: relative;
+	height: 75px;
+	left: -30px;
+}
+.social-links
+{
+	width: 50px;
+	padding: 10px 0;
+}
+.social-links a
+{
+	margin: 5px 0;
+	display: inline-block;
+}
 
 
