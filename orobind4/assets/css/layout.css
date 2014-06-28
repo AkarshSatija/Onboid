@@ -28,8 +28,11 @@ body
 	width: 100%;
 	height: 100%;
 	padding: 0;
+}
+.bg-home
+{
 	background-image: url('../img/background.png');
-	/*background-size: 30%;*/
+	
 	background-repeat: no-repeat;
     background-position: -30px -50px;
 }
@@ -80,7 +83,7 @@ header
     right: -70px;
 }
 
-#city.city input[type=text]
+.city input[type=text], .city2 input[type=text]
 {
     background-image: url('../img/magnifier.png');
     background-repeat: no-repeat;
@@ -92,6 +95,47 @@ header
     margin-left: 10px;
 
 }
+
+/*header 2*/
+header.header2
+{
+    background-color: #000;
+    width: 100%;
+    height: 70px;
+    float: left;
+    color: #ccc;
+}
+.city2
+{
+    
+    float: left;
+    margin-left: 100px;
+    margin-top: 17px;
+
+}
+.header2 .title-div
+{
+    float: left;
+    width: 260px;
+    z-index: 2;
+
+    
+}
+.header2 .login-box
+{
+    width: 35%;
+}
+
+.header2 .login-table input[type=text] , .header2 .login-table input[type=password]
+{
+    border:none;
+    padding: 3px;
+}
+
+
+/*header2 ends*/
+
+
 .login-box
 {
 	width: 53%;
