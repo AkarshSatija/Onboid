@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: Lato-Black;
   src: url('../fonts/Lato-Bla.ttf');
 }
@@ -9,12 +9,16 @@
 @font-face {
   font-family: Lato-Light;
   src: url('../fonts/Lato-Lig.ttf');
-}
+}*/
 @font-face {
   font-family: Lato-Regular;
   src: url('../fonts/Lato-Reg.ttf');
 }
 
+@font-face {
+  font-family: Agency-FB-Regular;
+  src: url('../fonts/Agency-FB-Regular.ttf');
+}
 body
 {
 	font-family: Lato-Regular;
@@ -27,6 +31,7 @@ body
 	background-image: url('../img/background.png');
 	/*background-size: 30%;*/
 	background-repeat: no-repeat;
+    background-position: -30px -50px;
 }
 .container .row
 {
@@ -54,10 +59,11 @@ header
     background: #000;
     margin: 0 ;
     position: relative;
-
+    font-size: 1.1em;
     padding:20px 20px;
     color: #aaa;
     float:left;
+
 }
 .city:after {
     content: '';
@@ -74,11 +80,68 @@ header
     right: -70px;
 }
 
+#city.city input[type=text]
+{
+    background-image: url('../img/magnifier.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 2px 6px;
+    padding: 3px 0;
+    border:0;
+    padding-left: 30px;
+    margin-left: 10px;
+
+}
 .login-box
 {
-	width: 50%;
+	width: 53%;
+}
+.login-table input[type=text] ,.login-table input[type=password]
+{
+    border:1px solid #ccc;
+    padding: 3px;
 }
 
+table.login-table td
+{
+    padding-left: 20px
+}
+
+.login-table .btn.btn-default
+{
+    border:1px solid #ccc;
+    padding: 3px 5px;
+    border-radius: 0;
+    background-color: #17c9a7;  
+    color: #fff;
+    height: 28px;
+    
+}
+table.login-table
+{
+    margin-top: 15px;
+    margin-right: 8%;
+}
+label.remember-me
+{
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    margin: 0;
+}
+label.remember-me input[type=checkbox]
+{
+    margin-right: 5px;
+}
+a.forgot-link
+{
+    color: inherit;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    margin: 0;
+}
 
 .get-fit
 {
@@ -94,18 +157,19 @@ header
 .get-fit .get-fit-text
 {
 	position: absolute;
-	bottom: 0;
+	bottom: -11px;
 	left: 20px;
 	color: #111;
-	font-family: Lato-Light;
+    font-size: 2em;
+	font-family: Agency-FB-Regular;
 }
 .get-fit .get-fit-text span.get
 {
-	font-size: 2em;
+	font-size: 1.3em;
 }
 .get-fit .get-fit-text span.fit
 {
-	font-size: 2em;
+	font-size: 1.3em;
 	color: #3bd2b5;
 }
 
@@ -140,7 +204,7 @@ header
 
 .title-div .inner-title
 {
-	width:225px;
+	width:100%;
 	color: #111;
 	font-family: Lato-Regular;
 	font-size: 1.5em;
@@ -226,12 +290,12 @@ input[type="text"].form-control
 
 
 background: rgb(0,0,0); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(109,109,109,0.8) 50%, rgba(0,0,0,0.8) 100%, rgba(255,255,255,0.8) 100%, rgba(255,255,255,0.8) 100%, rgba(255,255,255,0.8) 100%, rgba(255,255,255,0.8) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(50%,rgba(109,109,109,0.8)), color-stop(100%,rgba(0,0,0,1)), color-stop(100%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(109,109,109,0.8) 50%,rgba(0,0,0,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(109,109,109,0.8) 50%,rgba(0,0,0,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(109,109,109,0.8) 50%,rgba(0,0,0,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(109,109,109,0.8) 50%,rgba(0,0,0,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%); /* W3C */
+background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(50,50,50,0.8) 50%, rgba(0,0,0,0.8) 100%, rgba(255,255,255,0.8) 100%, rgba(255,255,255,0.8) 100%, rgba(255,255,255,0.8) 100%, rgba(255,255,255,0.8) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(50%,rgba(50,50,50,0.8)), color-stop(100%,rgba(0,0,0,1)), color-stop(100%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(50,50,50,0.8) 50%,rgba(0,0,0,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(50,50,50,0.8) 50%,rgba(0,0,0,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(50,50,50,0.8) 50%,rgba(0,0,0,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(50,50,50,0.8) 50%,rgba(0,0,0,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 
 }
@@ -245,10 +309,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     border-top:35px solid #222;
     border-bottom: 35px solid #222;
     border-left: 35px solid transparent;
-    border-right: 35px solid #222;
+    border-right: 20px solid #222;
     position: absolute;
     top: 0;
-    left: -70px;
+    left: -55px;
 
    
 
@@ -262,8 +326,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     width: 60px;
     box-shadow: 1px 1px 3px #888888;
     font-size: 22px;
-    /*font-family: Lato-Black;*/
-
+    font-family: Lato-Regular;
+    text-align: center;
+    padding: 0;
 
 
     -moz-box-shadow:inset 1px 0 3px 0 #fff;
@@ -295,10 +360,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 	display: inline-block;
 }
 
+.caption
+{
+    font-family: Agency-FB-Regular; 
+    left: -20px;
+    position: relative;
+    width: 200px;
+    z-index: 2;
+
+}
+.become
+{
+    font-size: 1.7em;
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+
+}
+
 .coach
 {
-  font-size: 25px;
-font-weight: bolder;  
+    font-size: 2.4em;
+    font-weight: bolder; 
+    line-height: 0;
+    line-height: 15px;
+    
 }
 
 /*footer#footer
@@ -333,25 +419,81 @@ footer
 
 .tags
 {
-    float: right;
-    margin-top: 5px;
+    width: 600px;
+    margin-top: 1px;
 }
-
-.tag1,.tag2
+.tags > a
 {
-margin: 0px 10px;
-padding: 7px 20px;
+    text-decoration: none;
+    font-family: Agency-FB-Regular;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: inherit;
+    font-weight: bold;
+}
+
+.tag
+{
+margin: 0px 25px;
+padding: 3px 0px;
 background-color: #ccc;
-border-left-width: 10px
+/*border-left-width: 10px*/
 
 }
 
-.foot
+.tag:after
+{
+    content: '';
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top:15px solid #ccc;
+    border-bottom: 14px solid transparent;
+    border-left: 15px solid #ccc;
+    border-right: 15px solid transparent;
+    position: relative;
+    top: -6px;
+    left: 30px;
+
+}
+.tag:before
+{
+    content: '';
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top:15px solid #ccc;
+    border-bottom: 14px solid transparent;
+    border-left: 15px solid transparent;
+    border-right: 15px solid #ccc;
+    position: relative;
+    top: -6px;
+    left: -30px;
+
+
+   
+
+}
+
+
+.footer-menu
 {
     list-style: none;
-    color : inherit;
+    color : #807a7a;
     margin-top: 25px;
 }
+.footer-menu a
+{
+    text-decoration: none;
+    color: inherit;
+}
 
+.footer-menu a:hover
+{
+    text-decoration: none;
+    color: #aaa;
+}
 
 
