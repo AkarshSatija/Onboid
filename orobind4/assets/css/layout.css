@@ -559,6 +559,17 @@ background-color: #ccc;
 }
 
 
+.dashboard-container
+{
+    padding-top: 110px;
+}
+
+.left-sidebar
+{
+    border: 1px solid #aaa;
+    background-color: #eee
+}
+
 
 
 
