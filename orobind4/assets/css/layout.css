@@ -431,31 +431,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     
 }
 
-/*footer#footer
-{
-    background-color: rgba(1,1,1,0.7);
-    color: #eee;
-}
-footer#footer .navigation
-{
-    
-    display: inline-block;
-}
-footer#footer .navigation ul.nav
-{
-    display: inline;
-}
-footer#footer .navigation .nav > li
-{
-    padding: 5px;
-    display: inline;
-}
-footer#footer .navigation .nav > li >a
-{
-    
-    display: inline;
-}*/
-
 footer
 {   background-color: #1e1c21;
     height: 120px;
@@ -516,11 +491,7 @@ background-color: #ccc;
     top: -6px;
     left: -30px;
 
-
-   
-
 }
-
 
 .footer-menu
 {
@@ -539,5 +510,56 @@ background-color: #ccc;
     text-decoration: none;
     color: #aaa;
 }
+
+/* Dashboard Nav */
+.dashboard-nav
+{
+    
+    width: 50%;
+    height: 100%;
+    color: inherit;
+}
+
+.dashboard-nav ul.nav.nav-pills 
+{
+    height: 100%;
+}
+.dashboard-nav .nav.nav-pills >li 
+{
+    height: 100%;
+    margin-left: 0;
+}
+.dashboard-nav .nav.nav-pills >li:not(:first-child)
+{   
+    border-left: 1px solid #939598;
+}
+.dashboard-nav .nav.nav-pills >li >a
+{
+    height: 100%;  
+    padding: 25px 15px; 
+    color: #ccc;
+    font-family: Lato-regular;
+    font-size: 12px;
+}
+.dashboard-nav .nav.nav-pills >li.active >a
+{
+    background-color: inherit;
+}
+.dashboard-nav .nav.nav-pills >li >a .badge
+{
+    background-color: #e5414d;
+    border-radius: 0;
+    font-family: Lato-Regular;
+    padding: 5px;
+    min-width: 0;
+    font-weight: normal;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+
+
+
 
 
