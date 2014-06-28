@@ -1,0 +1,50 @@
+.signpage_why_orobind{
+	width: 65%;
+	float: left;
+	padding-left: 160px;
+	padding-top: 54px;
+}
+
+.signpage_why_orobind h1{
+	font-size: 35px;padding-left: 54px;
+
+}
+
+.signpage_why_orobind ul{
+	list-style: none;
+}
+
+.signpage_why_orobind li{
+
+padding: 13px;
+
+
+}
+.signpage_why_orobind ul li span {
+	color: #333333;
+
+}
+
+.signpage_why_orobind img{
+	padding-right: 18px;
+
+
+
+}
+
+.signpage_form{
+	width: 35%;
+	float:right;
+}
+
+
+.signpage_form h1{
+
+		font-size: 35px;
+
+}
+
+
+.signpage_form h4{
+
+}
