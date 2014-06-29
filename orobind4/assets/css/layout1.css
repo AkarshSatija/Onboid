@@ -102,7 +102,8 @@ height: 22px;
 padding-top: 4px;
 margin: 0px;
 border-top: 1px solid #999999;
-
+padding-left: 25px
+;
 }
 
 .dashboard_mainwrapper .dashboard_calender_timeslot .dashboard_timeslot ul{
@@ -180,4 +181,104 @@ overflow-y: scroll;
 color: #17C9A7;
 font-size: 16px;
 padding-top: 18px;
+}
+
+.dashboard_payment{
+
+	width: 74%;
+	margin: 75px auto;
+}
+
+.dashboard_payment_row{
+	background-color: #17C9A7;
+	height: 100px;
+}
+
+.dashboard_payment  .img_block{
+    float: left;
+    width: 63px;
+    padding-top: 4px;
+}
+
+
+ .dashboard_payment .span_name{
+	font-size: 20px;
+	display: block;
+	padding-top: 6px;
+	font-weight: 700;
+	color: white;
+}
+
+ .dashboard_payment .span_location{
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+}
+
+ .dashboard_payment_row .edit_white{
+ 	font-size: 19px;
+ 	padding-top: 19px;
+ 	color: white;
+  	float: left;
+ 	padding-left: 74px;
+}
+
+.payment_outer{
+
+	height: 440px;
+	border:1px solid #999999;
+	margin-top: 30px;
+	padding:20px;
+}
+
+.payment_inner{
+	border:1px solid #999999;
+    height: 360px;
+}
+
+.payment_inner h3{
+	background-color: #F2F2F2;
+	font-size: 19px;
+	margin: 0px;
+	padding-top: 6px;
+	padding-left: 18px;
+	height: 32px;
+	border-bottom:1px solid #999999;
+
+}
+
+.payment_inner ul{
+	list-style: none;
+	padding: 0px;
+}
+
+.payment_inner li{
+	height: 65px;
+	border-bottom:1px solid #999999;
+}
+
+.payment_inner .span_time{
+	font-size: 12px;
+	display: block;
+	padding-top: 21px;
+	font-weight: 700;
+
+}
+
+.payment_inner .span_rate{
+
+	font-size: 20px;
+	display: block;
+	padding-top: 14px;
+	font-weight: 700;
+	
+}
+.amount h3{
+	font-size: 17px;
+	text-align: right;
+}
+
+.amount img{
+	width: 175px;
+
 }
