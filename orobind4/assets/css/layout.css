@@ -2,10 +2,11 @@
   font-family: Lato-Black;
   src: url('../fonts/Lato-Bla.ttf');
 }
+*/
 @font-face {
   font-family: Lato-Bold;
   src: url('../fonts/Lato-Bol.ttf');
-}*/
+}
 @font-face {
   font-family: Lato-Light;
   src: url('../fonts/Lato-Lig.ttf');
@@ -22,20 +23,32 @@
 body
 {
 	font-family: Lato-Regular;
+    font-size: 12px;
 }
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(0.6); /* IE */
+  -moz-transform: scale(0.6); /* FF */
+  -webkit-transform: scale(0.6); /* Safari and Chrome */
+  -o-transform: scale(0.6); /* Opera */
+  padding: 1px;
+  border-radius: 0;
+}
+
 .container
 {
 	width: 100%;
-	height: 100%;
 	padding: 0;
 }
 
 .bg-home
 {
 	background-image: url('../img/background.png');
-	
 	background-repeat: no-repeat;
-    background-position: -30px -50px;
+    background-position: center;
+    background-size: 75%;
 }
 .container .row
 {
@@ -54,17 +67,17 @@ header
 {
 	background-color: #ffe938;
 	width: 100%;
-	height: 70px;
+	height: 58px;
 }
 .city
 {
-	width: 40%;
+	width: 35%;
     height: 100%;
     background: #000;
     margin: 0 ;
     position: relative;
-    font-size: 1.1em;
-    padding:20px 20px;
+    font-size: 1em;
+    padding: 20px 25px;
     color: #aaa;
     float:left;
 
@@ -75,27 +88,48 @@ header
     font-size: 0;
     width: 0;
     height: 0;
-    border-top: 35px solid #000;
-    border-bottom: 35px solid transparent;
-    border-left: 35px solid #000;
-    border-right: 35px solid transparent;
+    border-top: 29px solid #000;
+    border-bottom: 29px solid transparent;
+    border-left: 29px solid #000;
+    border-right: 29px solid transparent;
     position: absolute;
     top: 0;
-    right: -70px;
+    right: -58px;
 }
 
 .city input[type=text], .city2 input[type=text]
 {
     background-image: url('../img/magnifier.png');
     background-repeat: no-repeat;
-    background-size: 20px;
-    background-position: 2px 6px;
+    background-size: 16px;
+    background-position: 2px 3px;
     padding: 3px 0;
     border:0;
-    padding-left: 30px;
+    padding-left: 25px;
     margin-left: 10px;
-
+    height:20px;
+    font-size: 11px;
+    width: 120px;
 }
+/* 454545*/
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #454545;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #454545;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #454545;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #454545;
+}
+
+
+
 
 /*header 2*/
 header.header2
@@ -141,35 +175,50 @@ header.header2
 {
 	width: 53%;
 }
-.login-table input[type=text] ,.login-table input[type=password]
+.login-table input[type=text] , .login-table input[type=password]
 {
     border:1px solid #ccc;
-    padding: 3px;
+    padding-left: 5px;
+    height: 20px;
+    font-size: 11px;
 }
 
 table.login-table td
 {
-    padding-left: 20px
+    padding-left: 10px
+}
+table.login-table tr
+{
+    margin: 0;
+    padding-top: 0;
+    vertical-align: top;
+}
+table.login-table td
+{
+    margin: 0;
+    padding-top: 0;
+    vertical-align: top;
 }
 
 .login-table .btn.btn-default
 {
     border:1px solid #ccc;
-    padding: 3px 5px;
+    padding: 2px 5px;
     border-radius: 0;
+    font-size: 10px;
     background-color: #17c9a7;  
     color: #fff;
-    height: 28px;
+    height: 20px;
     
 }
 table.login-table
 {
-    margin-top: 15px;
-    margin-right: 8%;
+    margin-top: 12px;
+    margin-right: 25px;
 }
 label.remember-me
 {
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: 1px;
     font-weight: normal;
     margin: 0;
@@ -182,7 +231,7 @@ a.forgot-link
 {
     color: inherit;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: 1px;
     font-weight: normal;
     margin: 0;
@@ -192,7 +241,7 @@ a.forgot-link
 {
 	width: 40%;
     height: 80px;
-    background: #fff;
+    background: transparent;
     margin: 0 ;
     position: relative;
     padding:inherit 20px;
@@ -237,8 +286,8 @@ a.forgot-link
 */
 .title-div
 {
-	width: 30%;
-    height: 110px;
+	width: 25%;
+    height: 130px;
     background: #3bd2b5;
     margin: 0 ;
     position: relative;
@@ -261,31 +310,33 @@ a.forgot-link
     font-size: 0;
     width: 0;
     height: 0;
-    border-top: 55px solid #3bd2b5;
-    border-bottom: 55px solid transparent;
-    border-left: 55px solid #3bd2b5;
-    border-right: 55px solid transparent;
+    border-top: 65px solid #3bd2b5;
+    border-bottom: 65px solid transparent;
+    border-left: 65px solid #3bd2b5;
+    border-right: 65px solid transparent;
     position: absolute;
     top: 0;
-    right: -110px;
+    right: -130px;
 }
 
 .wistle-div
 {
-	width: 15%;
-    height: 74px;
-    background: #ffe938;
+	width: 210px;
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
     margin: 0 30px ;
     position: relative;
     padding:0;
     color: #aaa;
     float:none;
-    /*background-image: url('../img/wistle.png');*/
-    box-shadow: 10px 10px 5px #888888;
-
+    background-image: url('../img/wistle_bg.png');
+    
+    /*box-shadow: 10px 10px 5px #888888;
+*/
     color: #111;
 }
-.wistle-div:after {
+/*.wistle-div:after {
     content: '';
     line-height: 0;
     font-size: 0;
@@ -298,8 +349,8 @@ a.forgot-link
     position: absolute;
     top: 0;
     right: -74px;
-    /*box-shadow: 10px 10px 5px #888888;*/
-}
+    
+}*/
 .wistle-div img
 {
 	position: relative;
@@ -312,39 +363,37 @@ a.forgot-link
 {
 
 }
-input[type="text"].form-control
+
+.form-inline input[type="text"].form-control
 {
-    width: 25%;
+    width: 22%;
+    border-radius: 10px;    
+
 
 }
 .form-inline
 {
     width: 100%;
+    text-align: right;
 }
 .search-fields
 {
-    background-color: rgba(5,5,5,.9);
-    height: 70px;
-    margin-top: 40px;
-    padding: 18px;
+    /*background-color: rgba(5,5,5,.9);*/
+    height: 85px;
+    width: 90%;
+    min-width: 750px;
+    margin-top: 15px;
+    background-size: 120% 120%;
+    padding: 25px;
+    padding-left: 70px;
     font-family: Lato-regular;
     color: #EEE;
-    font-size: 1.5em;
+    font-size: 2em;
     letter-spacing: 2px;
-
-
-
-background: rgb(0,0,0); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(50,50,50,0.8) 50%, rgba(0,0,0,0.8) 100%, rgba(255,255,255,0.8) 100%, rgba(255,255,255,0.8) 100%, rgba(255,255,255,0.8) 100%, rgba(255,255,255,0.8) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(50%,rgba(50,50,50,0.8)), color-stop(100%,rgba(0,0,0,1)), color-stop(100%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(50,50,50,0.8) 50%,rgba(0,0,0,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(50,50,50,0.8) 50%,rgba(0,0,0,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(50,50,50,0.8) 50%,rgba(0,0,0,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(50,50,50,0.8) 50%,rgba(0,0,0,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    background-image: url('../img/search-panel-bg.png');
 
 }
-.search-fields:before
+/*.search-fields:before
 {
     content: '';
     line-height: 0;
@@ -361,17 +410,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
    
 
-}
+}*/
 .btn-go
 {
     background-color: #3cd2b5;
     border-radius: 0 45px 45px 0;
-    height: 70px;
-    margin-top: 40px;
+    height: 84px;
+    margin-top: 15px;
     width: 60px;
     box-shadow: 1px 1px 3px #888888;
     font-size: 22px;
-    font-family: Lato-Regular;
+    font-family: Lato-Bold;
     text-align: center;
     padding: 0;
 
@@ -398,6 +447,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 {
 	width: 50px;
 	padding: 10px 0;
+    margin-right: 15px;
 }
 .social-links a
 {
@@ -416,8 +466,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 }
 .become
 {
-    font-size: 1.7em;
+    font-size: 2em;
     padding: 0;
+    font-weight: 500;
     margin: 0;
     line-height: 40px;
 
@@ -425,8 +476,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 .coach
 {
-    font-size: 2.4em;
-    font-weight: bolder; 
+    font-size: 2.6em;
+    font-weight: 900; 
     line-height: 0;
     line-height: 15px;
     

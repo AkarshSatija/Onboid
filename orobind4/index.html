@@ -6,6 +6,7 @@
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/layout.css" rel="stylesheet">
+    <link href="assets/css/fix.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,7 +35,13 @@
 						<td><a href="#" tabindex="5" class="btn btn-default">Sign Up</a></td>
 					</tr>
 					<tr>
-						<td><label class="remember-me"><input tabindex="3" type="checkbox" value="1">Keep me logged in</label></td>
+						<!-- <td><label class="remember-me"><input tabindex="3" type="checkbox" value="1">Keep me logged in</label></td> -->
+            <td>
+              <div class="checkboxFive">
+                <input type="checkbox" value="1" id="checkboxFiveInput" name="">
+                <label for="checkboxFiveInput"><span>Keep me logged in</span></label>
+              </div>
+            </td>
 						<td><a href="#" rel="nofollow" class="forgot-link">Forgot Your Password?</a></td>
 					</tr>
 				</tbody>
@@ -72,7 +79,7 @@
 
 	   		<div class="title-div">
 		   		<div class="inner-title">
-		   			<img src="assets/img/logo.png" class="pull-left img-responsive">
+		   			<img src="assets/img/logo.png" style="max-width:106% !important" class="pull-left img-responsive">
 		   			<span class="pull-left">#thegoodfight</span>
 		   		</div>
 	   		</div>
@@ -99,18 +106,20 @@
 
    	<div class="row">
     <form>
-   		<div class="col-md-10 col-md-offset-1 search-fields">
-        <div class="form-inline pull-right">
-          <span class="input-label">I want a</span>
-          <input type="text" class="form-control" placeholder="Yoga Coach">
-          <span class="input-label">for</span>
-          <input type="text" class="form-control" placeholder="Weight Loss">
-          <span class="input-label">near</span>
-          <input type="text" class="form-control" placeholder="IndiraNagar">
-          
+   		<div class="col-md-10 col-md-offset-1">
+       <div class="search-fields pull-left"> 
+          <div class="form-inline pull-right">
+           <span class="input-label">I want a</span>
+           <input type="text" class="form-control" placeholder="Yoga Coach">
+           <span class="input-label">for</span>
+           <input type="text" class="form-control" placeholder="Weight Loss">
+           <span class="input-label">near</span>
+           <input type="text" class="form-control" placeholder="IndiraNagar">
+          </div>
         </div>
+        <input type="submit" class="btn btn-go pull-left" value="GO !">
       </div>
-      <input type="submit" class="btn btn-go" value="GO !">
+      
     </form>
    	</div>
     <br><br><br>
