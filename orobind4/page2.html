@@ -6,7 +6,8 @@
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/layout.css" rel="stylesheet">
-
+    <link href="assets/css/fix.css" rel="stylesheet">
+   
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -14,73 +15,77 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body style="background-color:#1c1c1c">
    
    <!-- header -->
-   <header id="header" class="header2">
-
-    <div class="title-div">
-      <div class="inner-title">
-         <img src="assets/img/logo.png" class="pull-left img-responsive">
-       <span class="pull-left">#thegoodfight</span>
-      </div>
+   <header id="header" class="container container2 header2" >
+    <div class="logo">
+      <img src="assets/img/logo_with_bg.png" class="pull-left img-responsive" alt="">
     </div>
-
    	<div id="city" class="city2">
-   		<form>
+   		<form role="form">
    			Current city <input type="text" placeholder="Select City"> 			
    		</form>
    	</div>
-
    	<div class="login-box pull-right">
-   		<form role="form">
-		   	<table class="login-table pull-right">
-				
-					<tr>
-						<td><input tabindex="1" type="text" placeholder="Username"></td>
-						<td><input tabindex="2"	type="password" placeholder="Password"></td>
-						<td><input tabindex="4" type="submit" class="btn btn-default" value="Sign In"></td>
-						<td><a href="#" tabindex="5" class="btn btn-default">Sign Up</a></td>
-					</tr>
-					<tr>
-						<td><label class="remember-me"><input tabindex="3" type="checkbox" value="1">Keep me logged in</label></td>
-						<td><a href="#" rel="nofollow" class="forgot-link">Forgot Your Password?</a></td>
-					</tr>
-				</table>
-		  </form>  		
-   	</div>
+      <form role="form">
+        <table class="login-table pull-right">
+          <tr>
+            <td><input tabindex="1" type="text" placeholder="Username"></td>
+            <td><input tabindex="2" type="password" placeholder="Password"></td>
+            <td><input tabindex="4" type="submit" class="btn btn-default" value="Sign In"></td>
+            <td><a href="#" tabindex="5" class="btn btn-default">Sign Up</a></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="checkbox2">
+                <input type="checkbox" value="1" id="checkboxFiveInput" name="">
+                <label for="checkboxFiveInput"><span>Keep me logged in</span></label>
+              </div>
+            </td>
+            <td><a href="#" rel="nofollow" class="forgot-link">Forgot Your Password?</a></td>
+          </tr>
+        </table>
+      </form>
+    </div>
 
-   </header><!-- /header -->
+   </header>
 
-   <div class="clearfix"></div>
-   <div class="container">
-     <div class="row search-panel">
-       <div class="col-md-8 col-md-offset-4 no-padding">
-        <div class="col-md-7 temp">
-          <div class="form-inline pull-right search-form">
-            <span class="input-label">I want a</span>
-            <input type="text" class="form-control" placeholder="Yoga Coach">
-            <span class="input-label">for</span>
-            <input type="text" class="form-control" placeholder="Weight Loss">
-            <span class="input-label">near</span>
-            <input type="text" class="form-control" placeholder="IndiraNagar">
-            <input type="submit" class="btn btn-default btn-search" value="GO !">
-          </div>
+   <!-- /header -->
+
+   <div class="container container2" style="background-color:#fafafa">
+     <div class="row search-panel" style="background-color:#fafafa">
+     <div class="clearfix"></div>
+     <div style="width:60%; float:right">
+
+      <div class="col-md-7 temp no-padding" style="background-color:#fff">
+        <div class="form-inline pull-right search-form">
+          <span class="input-label">I want a</span>
+          <input type="text" class="form-control" placeholder="Yoga Coach">
+          <span class="input-label">for</span>
+          <input type="text" class="form-control" placeholder="Weight Loss">
+          <span class="input-label">near</span>
+          <input type="text" class="form-control" placeholder="IndiraNagar">
+          <input type="submit" class="btn btn-default btn-search" value="GO !">
         </div>
-        <div class="col-md-3">
-          <a href="#" class="refine-search">REFINE SEARCH</a>
-        </div>
-        <div class="col-md-2" style="padding:5px;">
-          <a href="#">
-            <img src="assets/img/help-img.png" class="img-responsive" style="max-width:70%">
-          </a> 
-        </div>
-         
-       </div>
+      </div>
+      <div class="col-md-3 no-padding">
+        <a href="#" class="refine-search">REFINE SEARCH</a>
+      </div>
+      <div class="col-md-2" >
+        <a href="#">
+          <img src="assets/img/help-img.png" class="img-responsive" style="max-width:70%; padding:15px 5% 15px 15%;" alt="">
+        </a> 
+      </div>
+
+     </div>
+     
+       
      </div>
 
-     <div class="container2 clearfix">
-       <div class="col-md-5 no-padding" style="width:calc(41.66% - 10px)">
+     <div class="clearfix"></div>
+
+       <div class="no-padding no-margin" style="width:40%; float:left;">
         <div class="featured-post">
           <div class="featured-img">
             <div class="rating">
@@ -92,7 +97,13 @@
                 <span class="glyphicon glyphicon-heart"></span>
               </div>
             </div>
-            <div class="img-detail overlay">
+            
+            <img src="assets/img/back_jpg.jpg" class="img-responsive" alt="">
+            
+          </div>
+          
+          <div class="row post-detail">
+          <div class="img-detail overlay">
               <div style="float:left; width:225px;">
                 <a href="#" class="btn btn-default btn-green">
                 BUY SESSION
@@ -100,20 +111,15 @@
                 <div class="description">
                   text goes here
                 </div>
-
+                <div class="bubble pull-right">123</div>
               </div>
             </div>
-            <img src="assets/img/back_jpg.jpg" class="img-responsive">
-            
-          </div>
-          
-          <div class="row post-detail">
             <div class="col-md-8 no-padding description">
               Yatish Dwivedi<br>
               All Body Cardio Specialist
             </div>
             <div class="col-md-4 no-padding price">
-              &#8377;10,000
+              <span style="font-family:rupee;font-size:24px">`</span> 10,000
               
               <span class="per-session">per Session</span>
             </div>
@@ -123,8 +129,9 @@
 
 
 
-       <div class="col-md-7 no-padding right-container">
-         <div class="row">
+       <div class="no-padding no-margin right-container" style="width:60%; float:left;">
+
+         <div class="row col-md-10 no-padding">
            <div class="col-md-6 no-margin item">
              <div class="item-post">
                  <div class="rating">
@@ -137,10 +144,10 @@
                     </div>
                   </div>
                  <div class="img-detail">
-                   &#8377;2000<br>
+                   <span style="font-family:rupee;">`</span> 2000<br>
                    per session
                  </div>
-                 <img src="assets/img/background.png" class="img-responsive">
+                 <img src="assets/img/background.png" class="img-responsive" alt="">
                  <div class="detail overlay">
                    hasd
                  </div>
@@ -159,10 +166,10 @@
                     </div>
                   </div>
                  <div class="img-detail">
-                   &#8377;2000<br>
+                   <span style="font-family:rupee;">`</span> 2000<br>
                    per session
                  </div>
-                 <img src="assets/img/background.png" class="img-responsive">
+                 <img src="assets/img/background.png" class="img-responsive" alt="">
                  <div class="detail overlay">
                    GYMNASTICS TRAINER NEAR SHAMLI
                  </div>
@@ -181,10 +188,10 @@
                     </div>
                   </div>
                  <div class="img-detail">
-                   &#8377;2000<br>
+                   <span style="font-family:rupee;">`</span> 2000<br>
                    per session
                  </div>
-                 <img src="assets/img/background.png" class="img-responsive">
+                 <img src="assets/img/background.png" class="img-responsive" alt="">
                  <div class="detail overlay">
                    hasd
                  </div>
@@ -203,19 +210,18 @@
                     </div>
                   </div>
                  <div class="img-detail">
-                   &#8377;2000<br>
+                   <span style="font-family:rupee;">`</span> 2000<br>
                    per session
                  </div>
-                 <img src="assets/img/background.png" class="img-responsive">
+                 <img src="assets/img/background.png" class="img-responsive" alt="">
                  <div class="detail overlay">
                    hasd
                  </div>
              </div>
            </div>
-
          </div>
-
-         <div class="row no-margin no-padding feeds">
+         <div class="clearfix"></div>
+         <div class="col-md-10 no-margin no-padding feeds">
            <div class="col-md-12 no-margin no-padding" >
              <div class="panel panel-default panel-green">
                <div class="panel-heading">Panel heading</div>
@@ -223,16 +229,14 @@
                <ul class="list-group">
                  <li class="list-group-item">Cras justo odio</li>
                  <li class="list-group-item">Dapibus ac facilisis in</li>
-                 <li class="list-group-item">Morbi leo risus</li>
-                 <li class="list-group-item">Porta ac consectetur ac</li>
+                
                  <li class="list-group-item">Vestibulum at eros</li>
                </ul>
              </div>
            </div>
          </div>
        </div>
-       
-     </div>
+       <div class="clearfix"></div>
    
     <br><br><br>
 
