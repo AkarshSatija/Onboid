@@ -6,7 +6,8 @@
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/layout.css" rel="stylesheet">
-     <link href="assets/css/layout1.css" rel="stylesheet">
+    <link href="assets/css/layout1.css" rel="stylesheet">
+    <link href="assets/css/fix.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,11 +75,10 @@
    
     <div class="dashboard_payment">
 
-
-      <div class=" dashboard_payment_row row" style="padding-top:12px">
+      <div class="dashboard_payment_row row" style="padding-top:12px">
         <div class="col-md-4" style="border-right: 1px solid #FFFFFF;height:80px">
           <div class="img_block">
-            <img src="assets/img/img_sample.png" />
+            <img src="assets/img/img_sample.png" class="img-responsive" />
           </div>
            <span class="span_name">Deepak Swarnkar</span>
            <span class="span_location">Indiranagar</span>
@@ -87,8 +87,8 @@
            <span class="edit_white">JUN 20 - AUG 17</span>
           
         </div>
-        <div class="col-md-4" style="height:80px">
-           <span class="span_name">500</span>
+        <div class="col-md-4" style="height:80px; text-align:right">
+           <span class="span_name"><span style="font-family:rupee;">`</span> 500</span>
            <span class="span_location">Per Session</span>
          
         </div>
@@ -100,10 +100,11 @@
                <ul>
                  <li class="row">
                    <div class="col-md-5">
-                     <div class="img_block">
-                       <img src="assets/img/img_sample.png" />
+                     <div class="checkbox3" style="margin-right:60px;">
+                       <input type="checkbox" value="1" id="id1" name="">
+                       <label for="id1"><span>19/06/14</span></label>
                      </div>
-                      <span class="span_time">19/06/14</span>
+                     <span class="span_time"></span>
                     
                    </div>
                    <div class="col-md-3">
@@ -116,11 +117,10 @@
                  </li>
                  <li class="row">
                    <div class="col-md-5">
-                     <div class="img_block">
-                       <img src="assets/img/img_sample.png" />
+                     <div class="checkbox3" style="margin-right:60px;">
+                       <input type="checkbox" value="1" id="id2" name="">
+                       <label for="id2"><span>19/06/14</span></label>
                      </div>
-                      <span class="span_time">19/06/14</span>
-                    
                    </div>
                    <div class="col-md-3">
                       <span class="span_rate">Monday</span>
@@ -132,11 +132,10 @@
                  </li>
                  <li class="row">
                    <div class="col-md-5">
-                     <div class="img_block">
-                       <img src="assets/img/img_sample.png" />
+                    <div class="checkbox3" style="margin-right:60px;">
+                       <input type="checkbox" value="1" id="id3" name="">
+                       <label for="id3"><span>19/06/14</span></label>
                      </div>
-                      <span class="span_time">19/06/14</span>
-                    
                    </div>
                    <div class="col-md-3">
                       <span class="span_rate">Monday</span>
@@ -146,153 +145,28 @@
                      <span class="span_time" style="padding-left:96px">9:00-10:00 AM</span>
                    </div>
                  </li>
-                 <li class="row">
-                   <div class="col-md-5">
-                     <div class="img_block">
-                       <img src="assets/img/img_sample.png" />
-                     </div>
-                      <span class="span_time">19/06/14</span>
-                    
-                   </div>
-                   <div class="col-md-3">
-                      <span class="span_rate">Monday</span>
-                     
-                   </div>
-                   <div class="col-md-3">
-                     <span class="span_time" style="padding-left:96px">9:00-10:00 AM</span>
-                   </div>
-                 </li>
-                 <li class="row">
-                   <div class="col-md-5">
-                     <div class="img_block">
-                       <img src="assets/img/img_sample.png" />
-                     </div>
-                      <span class="span_time">19/06/14</span>
-                    
-                   </div>
-                   <div class="col-md-3">
-                      <span class="span_rate">Monday</span>
-                     
-                   </div>
-                   <div class="col-md-3">
-                     <span class="span_time" style="padding-left:96px">9:00-10:00 AM</span>
-                   </div>
-                 </li>
-                  <li class="row">
-                   <div class="col-md-5">
-                     <div class="img_block">
-                       <img src="assets/img/img_sample.png" />
-                     </div>
-                      <span class="span_time">19/06/14</span>
-                    
-                   </div>
-                   <div class="col-md-3">
-                      <span class="span_rate">Monday</span>
-                     
-                   </div>
-                   <div class="col-md-3">
-                     <span class="span_time" style="padding-left:96px">9:00-10:00 AM</span>
-                   </div>
-                 </li>
-                  <li class="row">
-                   <div class="col-md-5">
-                     <div class="img_block">
-                       <img src="assets/img/img_sample.png" />
-                     </div>
-                      <span class="span_time">19/06/14</span>
-                    
-                   </div>
-                   <div class="col-md-3">
-                      <span class="span_rate">Monday</span>
-                     
-                   </div>
-                   <div class="col-md-3">
-                     <span class="span_time" style="padding-left:96px">9:00-10:00 AM</span>
-                   </div>
-                 </li>
-                  <li class="row">
-                   <div class="col-md-5">
-                     <div class="img_block">
-                       <img src="assets/img/img_sample.png" />
-                     </div>
-                      <span class="span_time">19/06/14</span>
-                    
-                   </div>
-                   <div class="col-md-3">
-                      <span class="span_rate">Monday</span>
-                     
-                   </div>
-                   <div class="col-md-3">
-                     <span class="span_time" style="padding-left:96px">9:00-10:00 AM</span>
-                   </div>
-                 </li> <li class="row">
-                   <div class="col-md-5">
-                     <div class="img_block">
-                       <img src="assets/img/img_sample.png" />
-                     </div>
-                      <span class="span_time">19/06/14</span>
-                    
-                   </div>
-                   <div class="col-md-3">
-                      <span class="span_rate">Monday</span>
-                     
-                   </div>
-                   <div class="col-md-3">
-                     <span class="span_time" style="padding-left:96px">9:00-10:00 AM</span>
-                   </div>
-                 </li>
-                  <li class="row">
-                   <div class="col-md-5">
-                     <div class="img_block">
-                       <img src="assets/img/img_sample.png" />
-                     </div>
-                      <span class="span_time">19/06/14</span>
-                    
-                   </div>
-                   <div class="col-md-3">
-                      <span class="span_rate">Monday</span>
-                     
-                   </div>
-                   <div class="col-md-3">
-                     <span class="span_time" style="padding-left:96px">9:00-10:00 AM</span>
-                   </div>
-                 </li>
-                  <li class="row">
-                   <div class="col-md-5">
-                     <div class="img_block">
-                       <img src="assets/img/img_sample.png" />
-                     </div>
-                      <span class="span_time">19/06/14</span>
-                    
-                   </div>
-                   <div class="col-md-3">
-                      <span class="span_rate">Monday</span>
-                     
-                   </div>
-                   <div class="col-md-3">
-                     <span class="span_time" style="padding-left:96px">9:00-10:00 AM</span>
-                   </div>
-                 </li>
+
+               
 
               </ul>
 
               <div class="clear:both"></div>
-              <div class="checkbox pull-right">
-                <label style="font-size: 15px;color: #17C9A7;">
-                  <input type="checkbox" value="">
-                 Select All
-                </label>
-              </div>
+              <form>
+                <div class="checkbox_select_all pull-right" style="margin-right:60px;">
+                  <input type="checkbox" value="1" id="checkboxFiveInput_all" name="">
+                  <label for="checkboxFiveInput_all"><span>Select All</span></label>
+                </div>
+              </form>
+              
         </div>
       </div>
 
       <div class="amount pull-right">
-        <h3>Total Amount : 2030</h3>
-        <img src="assets/img/place.png"/>
+        <h3>Total Amount : <span><span style="font-family:rupee;">`</span> 2030</span></h3>
+        <a class="btn btn-default btn-green" href="#" style="width:100%; font-size:18px;">Make Payment</a>
 
 
       </div>
-
     </div>
 
 
