@@ -1020,9 +1020,11 @@ width: 60%;
 }
 
 
+/* Profile Page */
 
-
-
-
+.profile-sidebar
+{
+    background-color: #e6e6e6;
+}
 
 
