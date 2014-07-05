@@ -114,6 +114,25 @@ padding-left: 25px
 
 }
 
+.dashboard_mainwrapper .dashboard_calender_timeslot .dashboard_timeslot ul::-webkit-scrollbar{
+width:16px;
+background-color:#E6e6e6;
+} 
+
+.dashboard_mainwrapper .dashboard_calender_timeslot .dashboard_timeslot ul::-webkit-scrollbar-thumb{
+background-color:#17C9A7;
+border-radius:10px;
+}
+.dashboard_mainwrapper .dashboard_calender_timeslot .dashboard_timeslot ul::-webkit-scrollbar-thumb:hover{
+background-color:#17C9A7;
+border:1px solid #17C9A7;
+}
+.dashboard_mainwrapper .dashboard_calender_timeslot .dashboard_timeslot ul::-webkit-scrollbar-thumb:active{
+background-color:#17C9A7;
+border:1px solid #17C9A7;
+}
+
+
 
 .dashboard_mainwrapper .dashboard_calender_timeslot .dashboard_timeslot li{
 
@@ -136,7 +155,7 @@ padding-left: 47px;
 
 .dashboard_manage_list{
 
-	width: 82%;
+	width: 97%;
 	border:1px solid #999999;
 	margin-top: 73px;
 }
@@ -148,6 +167,30 @@ padding-left: 47px;
 overflow-y: scroll;
 
 }
+
+
+
+.dashboard_manage_list ul::-webkit-scrollbar{
+width:16px;
+background-color:#E6e6e6;
+} 
+
+.dashboard_manage_list ul::-webkit-scrollbar-thumb{
+background-color:#17C9A7;
+border-radius:10px;
+}
+.dashboard_manage_list ul::-webkit-scrollbar-thumb:hover{
+background-color:#17C9A7;
+border:1px solid #17C9A7;
+}
+.dashboard_manage_list ul::-webkit-scrollbar-thumb:active{
+background-color:#17C9A7;
+border:1px solid #17C9A7;
+}
+ 
+
+
+
 
 .dashboard_manage_list li {
 	height: 57px;
