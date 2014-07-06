@@ -849,6 +849,12 @@ width: 60%;
     
 }
 
+.profile_sidebar .tab-content
+{
+    background-color: #f4f2f2;
+    border: 1px solid #ddd;
+}
+
     
 .profile_sidebar ul.nav-menu-left li a , .profile_sidebar ul.nav-menu-left li a:hover, .profile_sidebar ul.nav-menu-left li a:focus
 {
@@ -1139,6 +1145,7 @@ font-size:20px;
     padding: 40px;
     box-shadow: 3px -2px 15px #888888;
     z-index: 2;
+    min-height: 700px;
 }
 .profile-image
 {
