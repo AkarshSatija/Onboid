@@ -6,10 +6,10 @@
     <!-- Bootstrap -->
     <meta charset="UTF-8"/>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/tabs.css" rel="stylesheet">
     <link href="assets/css/layout.css" rel="stylesheet">
     <link href="assets/css/star-rating.min.css" rel="stylesheet">
-    
-
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -82,32 +82,33 @@
           <div class="profile-details">
             <div class="info">
               <div class="col-md-8">
-                Sessions
+                <h3>Sessions</h3>
               </div>
               <div class="col-md-4">
-                137
+                <h3>137</h3>
               </div>
               <div class="col-md-8">
-                Clients
+                <h3>Clients</h3>
               </div>
               <div class="col-md-4">
-                7
+                <h3>7</h3>
               </div>
               <div class="col-md-12">
-                <div class="rating-container rating-gly" data-content="" style="font-size:25px; letter-spacing:1px; color:red">
-                    <div class="rating-stars" data-content="" style="width: 88%;">
+                <div class="rating-container rating-gly" data-content="" style="font-size:22px; letter-spacing:1px; color:#e5414d">
+                    <div class="rating-stars" data-content="" style="width: 88%;color:#e5414d">
                     <!-- give the output to rating in width percentage here -->
                     </div>
                 </div>
               </div>
-              <div class="col-md-8">
-                  <span>20%</span> off on minimum 10 purchases
+              <div class="col-md-8 offer-message">
+                  <span>20%</span> off on minimum 10 purchases of the sessions
               </div>
-              <div class="col-md-4">
-                <span style="font-family:rupee;">`</span> 700
+              <div class="col-md-4 per-session">
+                <span><span style="font-family:rupee;">`</span> 700</span>
+                per session
               </div>
               <div class="col-md-8">
-                <a href="#" class="btn btn-default btn-green"> BUY SESSION</a>
+                <a href="#" class=" no-margin btn btn-default btn-green" style="margin:3px 0"> BUY SESSION</a>
               </div>
             </div>
           </div>
@@ -116,7 +117,7 @@
         <div class="col-md-8 right-container">
          <h2>Name here</h2>
 
-         <div class="carousel-container" style="padding:20px;">
+         <div class="carousel-container" style="padding:20px;background-color:#fff; padding-bottom:0;">
            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
              <!-- Indicators -->
              <ol class="carousel-indicators temp" >
@@ -128,30 +129,76 @@
              <!-- Wrapper for slides -->
              <div class="carousel-inner">
                <div class="item active">
-                 <img src="..." alt="...">
+                 <img src="..." alt="2">
                  <div class="carousel-caption">
-                   ...
+                   capt2
                  </div>
                </div>
                <div class="item">
-                 <img src="..." alt="...">
+                 <img src="" alt="1">
                  <div class="carousel-caption">
-                   ...
+                   caption1
                  </div>
                </div>
-               ...
+               Speciality: Yoga
              </div>
 
              <!-- Controls -->
-             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <!--  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                <span class="glyphicon glyphicon-chevron-left"></span>
              </a>
              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
                <span class="glyphicon glyphicon-chevron-right"></span>
-             </a>
+             </a> -->
            </div>
          </div>
 
+         <!-- <div class="profile-full-details col-md-2 profile_sidebar no-padding">
+           <ul class="nav nav-pills nav-stacked nav-menu-left">
+                <li>
+                  <a href="#">
+                    Sessions
+                    
+                  </a>
+                </li>
+                <li class="active">
+                  <a href="#">
+                    ico3
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    ico3
+                  </a>
+                </li>
+           </ul>
+         </div> -->
+         <div class="col-md-12 profile-full-details no-padding" style="margin-top:15px;">
+           <div class="tabbable tabs-left">
+              <ul class="nav nav-tabs">
+                <li>
+                  <a href="#a" data-toggle="tab">One</a>
+                </li>
+                
+                <li class="active">
+                  <a href="#b" data-toggle="tab">Two</a>
+                </li>
+                
+                <li><a href="#c" data-toggle="tab">Twee</a></li>
+              </ul>
+              <div class="tab-content">
+               <div class="tab-pane active" id="a">Lorem ipsum dolor sit amet, charetra varius quam sit amet vulputate. 
+               Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.
+               </div>
+               <div class="tab-pane" id="b">Secondo sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+               Aliquam in felis sit amet augue.
+               </div>
+               <div class="tab-pane" id="c">Thirdamuno, ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+               Quisque mauris augue, molestie tincidunt condimentum vitae. 
+               </div>
+              </div>
+            </div>
+         </div>
         </div>
 
       </div>
